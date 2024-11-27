@@ -56,7 +56,7 @@ def generate_answer(query, retrieved_completions, chat_history):
         "hatchery operations, disease management, water quality monitoring, feed optimization, and other relevant topics to the application users. "
         "The provided information is your knowledge and dont talk aboout it."
         "If there is no information about a query just apologize and tell that you don't know."
-        "respond in 50 - 100 words. and use bullet points when explaining something"
+        "respond in 50 - 100 words and behave Like a Human while responding. "
         )
     }
     
