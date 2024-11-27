@@ -1,0 +1,5 @@
+pinecone
+pandas
+python-dotenv
+sentence_transformers
+streamlit
