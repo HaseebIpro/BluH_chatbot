@@ -1,0 +1,772 @@
+﻿prompt,completion
+What is the role of a Business admin in BluH ?,"Business admin is responsible for the all administrative activities like Infra creation, Inventory item creation, role creation and assignments for the entire Hatchery business from web application."
+What is the role of a Hatchery owner in BluH?,"Hatchery owner is responsible for the all activities and overview the system process for the entire Hatchery business, including all locations."
+What is the role of a Hatchery manager in BluH?,Hatchery manger is responsible for the all activities and overview the system process for one of the assigned location under the Hatchery business.
+What is the role of an Accountant in BluH?,"Accountant is responsible for the all MTL (material transaction) related, Expense related transactions, and create item master and vendor master when ever required."
+What is the role of a Maturation Technician in BluH?,"Maturation technician is responsible for the all Maturation activities like broodstock feeding, treatments, and mating process for the selected Maturation section in a PU."
+What is the role of a Rearing Technician in BluH?,"Rearing technician is responsible for the all larval activities like Juveniles feeding, treatment, and conversion process for the selected Rearing section in a PU."
+What is the role of a Feed boy in BluH?,"Feed boy is responsible for the all activities like feeding, treatment, observations, and water quality for the selected tanks in either Maturation/Rearing sections in a PU."
+Can Admin create multiple Hatchery owner logins for a single Hatchery business?,"Yes, Admin can create multiple hatchery owner logins for a single hatchery business. However, single hatchery owner login is preferred based on the business model."
+Can multiple Hatchery manager logins created for a single location?,"No, each location can have only one manager login."
+Can PU have multiple Maturation technician logins?,"Yes, but no technician can assign to same maturation section in that PU."
+Can PU have multiple Rearing technician logins?,"Yes, but no technician can assign to same rearing section in that PU."
+Can PU have multiple Feed Boy logins?,"Yes, but no Feed boy can assign to same maturation/rearing section in that PU."
+What does BluH do?,"Identifying High-Performing Brood and Broodlines, Optimizing Feeding Regimes for Optimal Growth and Survival, Comprehensive Insights for Informed Decision-making, Empowering Breeding and Disease Resistance."
+What are the basic activities involved or offered by BluH?,"Feed, Treatment, Observation, Water quality, Sampling, Shifting, Abort, & Sales are the basic activities involved/offered by BluH in both Maturation & Rearing sections."
+What are the exclusive activities involved/offered in the Maturation section?,"Mating, Spawning, Hatching, & Nauplii batch creation are the exclusive activities involved/offered in the Maturation section."
+What are the exclusive activities involved/offered in the Rearing section?,"Rearing stage, conversion count, & Water exchange % are the exclusive activities involved/offered in the Rearing section."
+What are the exclusive KPI's provided in Maturation section?,"Broodstock available animals, Dead animals, Mating %, Fecundity, Fertility %, Spawn cycle, Total Nauplii, Ready to shift/sell, & Production Cost/1M Nauplii, are the exclusive KPI's provided in Maturation section."
+What are the exclusive KPI's provided in Rearing section?,"Survival to PL, Ready to shfit/sell, & Production Cost/1M PL, are the exclusive KPI's provided in Rearing section."
+How the Mating % is calculated?,Mating % is calculated based on this formula [mated females/females brought for mating * 100].
+How the Fecundity is calculated?,Fecundity is calculated based on the egg released by each female animal.
+How the Fertility % is calculated?,Fertility % is calculated based on the Nauplii hatched by the total egg released for that batch.
+How the spawn cycle is calculated?,The Spawn cycle is calculated based on the female brood animals brought for mating to the total available females in that batch have. Spawn cycle is [Spawned animals/Available animals * 100]
+What is the Brood batch in Maturation section?,"Brood batch is some of the male and female broodstock animals, which are sourced from specific broodstock company with a specified broodline."
+What is the Nauplii batch in Rearing section?,"Nauplii batch is a collection of Nauplii Juveniles, which are sourced/generated from specific broodstock company brood animals with a specified broodline."
+Does BluH supports batch wise and as well section wise activities?,"Yes, BluH supports both Batch and Section wise activities."
+Which of the activities can enter by both Batch & Section wise?,"Feed, Treatment, Observation, Water quality, & Sampling are the activities can do it by both batch & section wise."
+Does Feeding in BluH allow multi meal per day?,"Yes, BluH allow multi meal feeding in a day."
+Does Feeding in BluH allow multi day entry?,"Yes, BluH allow multi day feeding in a single entry."
+Does Feeding in BluH allow multi tank entry?,"Yes, BluH allow multi tank feeding in a single entry."
+Does Feeding in BluH allow the edit/update/delete the entry?,"Yes, BluH allow edit/update/delete entries in feeding."
+Does BluH allow multi treatment in a day?,"Yes, BluH allow multi treatments entry in a day."
+Does Treatments in BluH allow multi day entry?,"Yes, BluH allow multi day treatments in a single entry."
+Does Treatment in BluH allow multi tank entry?,"Yes, BluH allow multi tank treatments in a single entry."
+Does Treatment in BluH allow the edit/update/delete the entry?,"Yes, BluH allow edit/update/delete entries in treatment."
+Does BluH allow multi Observations in a day?,"Yes, BluH allow multi observations entry in a day."
+Does Observations in BluH allow multi day entry?,"Yes, BluH allow multi day observations in a single entry."
+Does Observations in BluH allow multi tank entry?,"Yes, BluH allow multi tank observations in a single entry."
+Does Observations in BluH allow the edit/update/delete the entry?,"Yes, BluH allow edit/update/delete entries in observations."
+Does Water quality in BluH allow multi entry in a day?,"Yes, BluH allow multi entries in water quality in a day."
+Does Water quality in BluH allow multi day entry?,"No, BluH not allow multi day water quality entries in a single entry."
+Does Water quality in BluH allow multi tank entry?,"No, BluH not allow multi tank water quality entries in a single entry."
+Does water quality in BluH allow the edit/update/delete the entry?,"No, BluH not allow edit/update/delete entries in water quality."
+Does Sampling entry in BluH allow multi entry in a day?,"Yes, BluH allow multiple sampling entries in a day."
+Does Sampling in BluH allow multi day entry?,"No, BluH not allow multiple day sampling entries in a single entry."
+Does Sampling entries in BluH allow multi tank entry?,"No, BluH not allow multiple tank sampling entries in a single entry. Moreover it's a batch level entry for Maturation only."
+Does Sampling in BluH allow the edit/update/delete the entry?,"Yes, BluH allow edit/update the entries in sampling. But, not allow the delete function."
+Does BluH allow post dated Feed meal entries?,"Yes, BluH allow post dated feed meal entries."
+Does BluH allow post dated Treatment entries?,"Yes, BluH allow post dated treatment entries."
+Does BluH allow post dated Observation entries?,"Yes, BluH allow post dated observation entries."
+Does BluH allow post dated Water quality entries?,"Yes, BluH allow post dated water quality entries."
+Does BluH allow post dated Sampling entries?,"Yes, BluH allow post dated sampling entries."
+Does BluH allow multiple Broodbatch sourcing in a PU?,"Yes, BluH allow multiple broodbatch sourcing in a single PU at a time."
+Does BluH allow multiple Naupliibatch sourcing in a PU?,"Yes, BluH allow multiple naupliibatch sourcing in a single PU at a time."
+Does BluH allow post dated Brood batch sourcing in Maturation section?,"Yes, BluH allow post dated brood batch sourcing in Maturation section."
+Does BluH allow post dated Nauplii batch sourcing in Rearing section?,"Yes, BluH allow post dated nauplii batch sourcing in Rearing section."
+Does BluH allow multiple Mating batches running simultaneously in a broodbatch?,"Yes, BluH allow multiple mating batches running simultaneously in a broodbatch."
+Does BluH allow post dated Mating batch entries in a broodbatch?,"Yes, BluH allow post dated mating batch entries in a broodbatch."
+What types of shrimp species does BluH support?,"BluH supports a wide range of shrimp species commonly used in hatcheries, including whiteleg shrimp, black tiger shrimp, and Scampi."
+What is a PU in hatchery business?,"In Hatchery, PU refers production unit. Typical hatchery business consists multiple PUs in a location."
+"In BluH, each Hatchery business consists of?",In BluH each Hatchery business consists of multiple locations.
+"In BluH, each Location consists of?",In BluH each Location consists of multiple PUs.
+"In BluH, each PU consists of?",In BluH each PU consists of multiple sheds.
+"In BluH, each Shed consists of?","In BluH each Shed consists of multiple sections like maturation, rearing."
+"In BluH, each Section consists of?",In BluH each Section consists of multiple tanks.
+Does BluH have the mechanism to capture inventory items?,"Yes, BluH have the mechanism to capture inventory item master."
+Does BluH have the mechanism to capture expense items?,"Yes, BluH have the mechanism to capture expense item master."
+Does BluH have the mechanism to produce in-app notifications?,"Yes, BluH have the in-app notifications."
+Does BluH have the mechanism to capture vendors?,"Yes, BluH have the mechanism to capture vendor master."
+Does BluH have the mechanism to capture all inventory transactions?,"Yes, BluH have the mechanism to capture inventory transactions."
+What are the inventory transactions involved in the BluH?,"Transfer/Return, Miscellaneous, Issue, Balance migration, & Purchases are the inventory transactions involved in the BluH."
+Does BluH have the mechanism to capture all expense transactions?,"Yes, BluH have the mechanism to capture expense transactions."
+What are the expense transactions involved in the BluH?,Reversal & Issue are the expense transactions involved in the BluH.
+Does BluH allow post dated inventory transactions?,"Yes, BluH allow the post dated inventory transactions."
+Does BluH allow post dated expense transactions?,"Yes, BluH allow the post dated expense transactions."
+Does BluH allow Batch/Tank specified expense transactions?,"Yes, BluH allow the Batch/Tank specified expense transactions."
+Does BluH have the Petty cash functionality?,"Yes, BluH have the Petty cash functionality."
+Does BluH allow the attachments when the time of doing inventory transactions?,"Yes, BluH allow the attachments when the time of doing inventory transactions."
+Does BluH allow the attachments when the time of doing expense transactions?,"Yes, BluH allow the attachments when the time of doing expense transactions."
+Does BluH allow the transactions of capital expense?,"Yes, BluH allow the transactions of capital expense."
+Does BluH allow the transactions of operating expense?,"Yes, BluH allow the transactions of operating expense."
+Does BluH allow the multiline inventory transactions on same date?,"Yes, BluH allow the multiline inventory transactions on same date."
+Does BluH allow the multiline expense transactions on same date?,"No, BluH not allow the multiline expense transactions on same date."
+Does BluH allow the payment transactions to Vendors?,"Yes, BluH allow the payment transactions to vendors. But, no payment gateway involved."
+Does BluH provides spend of each tank in the hatchery?,"Yes, BluH provides spend of each tank in the hatchery."
+Does BluH provide the reports?,"Yes, BluH provides multiple types of reports."
+Typically what type of reports does BluH provides?,BluH provides both MTL & Performance related reports.
+What are the MTL related reports provided by BluH?,"Material movement report, Transactions report, Payment report, Sales summary, & Payments transaction report are provided by BluH."
+What are the Performance related reports provided by BluH?,"Running batch summary, Brood performance, Rearing summary, Discarded batches, & Batch analytics by feed reports are provided by BluH."
+Does BluH allow the reports to be exported to Excel or any other format?,"Yes, BluH allow all the reports to be exported to Excel format."
+Does BluH implemented the Nauplii sale functionality in maturation section?,"Yes, BluH implemented the nauplii sale functionality in maturation section."
+Does BluH implemented the PL sale functionality in rearing section?,"Yes, BluH implemented the PL sale functionality in rearing section."
+Does BluH have the Shift functionality in maturation section?,"Yes, BluH have the shift functionality in maturation section."
+Does BluH have the PL shift functionality in rearing section?,"Yes, BluH have the PL shift functionality in rearing section."
+Does BluH have the Abort functionality in maturation section?,"Yes, BluH have the Abort functionality in maturation section."
+Does BluH have the PL abort functionality in rearing section?,"Yes, BluH have the PL abort functionality in rearing section."
+Does BluH provide process data for each batch?,"Yes, BluH provides process data for each batch."
+Does BluH provide activities data for each batch?,"Yes, BluH provides activities data for each data."
+What type of activity data available in BluH web application?,"Feed, Treatment, Observation, Water quality, & Water flow are the activities data available in BluH web application."
+Does BluH have mechanism to record the farmer information when the sale is happen?,"Yes, BluH have the mechanism to record the farmer information when the sale is happen."
+Does BluH provide the information regarding the discarded batches?,"Yes, BluH provides the information regarding the discarded batches."
+What is Market connect?,"Market connect is a platform which enable hatcheries, nurseries and farmers to connect and exchange seed requirement and seed availability."
+What is the main use of Market connect in BluH?,"In BluH, using Market connect hatcheries & nurseries post their seed availability to farmers and get the seed requirement leads from them."
+Does BluH provide cost of production for each batch?,"Yes, BluH provides cost of production for each batch in maturation & rearing."
+Who are Brood providers?,Brood providers are those who produces genetically improved modified Broodstock for breeding.
+Available Brood providers in the market?,"Kobabay, SIS, B.M.R, SyAqua, Blue Genetics, API, SPD, MBC, CGS, OIHPU, PBU, BG, Uni Bio and others."
+Applications of Brood lines?,"Brood line involves careful selection and breeding of individuals that exhibit desired characteristics such as fast growth, disease resistance, good survival rates, and desirable size or coloration."
+Types of Brood lines?,"1. Growth, Balanced and Speed are different Brood lines.
+2. Growth Brood line deals with the growth rate of shrimp offspring. Main focus is to produce shrimp that grow larger and faster, resulting in higher yields and shorter production cycles.
+3. Balanced Brood line focuses on creating a well-rounded gene pool that encompasses various desirable traits, such as growth rate, disease resistance, survival rate, and tolerance to environmental conditions.
+4. Speed Brood line focuses on breeding shrimp that reach maturity at a younger age (fast maturation). The objective is to accelerate the reproductive cycle resulting in faster turnaround times and shorter production cycles."
+What does Ordered quantity (Male/Female) and Received quantity (Male/Female) refer to?,"1. Orders are placed only in pairs but not as individuals, 1 pair consists of one male and one female.
+2. Ordered quantity refers to the quantity (live animals) placed with the supplier.
+3. Received quantity refers to the quantity (live animals) received from the supplier.
+4. Most of the times received quantity will be less than ordered quantity because of transit mortality."
+Types of Order quantity?,"1. In general Broodstock is ordered in two quantity types. Cubicle (300 pairs) and Jumbo (600 pairs).
+2. Broodstock is delivered only in pairs but not as individuals. 1 pair consists of one male and one female only."
+Turn Around Time (TAT) from placing an order till receiving an order?,"1. It takes approximately 7-9 days from placing till receiving the order.
+2. General individual TAT as follows: 1-2 days from Brood Providers to AQF center, 5-6 days at AQF center (quarantine period) and within a day from AQF center to Hatcheries.
+3. The TAT may increase based on unforeseen conditions like weather, natural disaster or emergencies, logistics and operational issues, strikes, custom clearance, etc."
+Does the Order quantity undergo quarantine?,"1. Yes. Once the Ordered quantity reaches the Indian port, the Brood is quarantined for 5-7 days in the AQF center.
+2. This AQF fecility available in INDIA only, Hatcheries in other cuntries takes care of that induvidually."
+Different shrimp species or varieties available in the Market?,"Vannamei (Litopenaeus vannamei) - referred as Pacific White Shrimp, Tiger (Penaeus monodon) - referred as Black Tiger Shrimp and Scampi - referred as Large Size Shrimp."
+Which shrimp species is cultivated more in India?,"1. 90% of total shrimp production in India is from Vannamei due to its fast growth rate, disease resistance, and adaptability to different farming conditions. It has a mild, slightly sweet flavor and firm texture.
+2. Next prominent species in shrimp farming is Tiger. Though it experienced a recent decline in the market, it still retains its presence in certain regions and for specific market preferences. It has a rich, slightly sweet flavor and firm texture. Tiger shrimps are larger in size compared to Vannamei shrimps and have distinct black stripes on their shells.
+3. Scampi shrimp production in India accounted for a relatively smaller percentage compared to other shrimp species like Vannamei and Tiger shrimp."
+What is ablation in shrimp farming?,Ablation is removal of eyestalk which helps in inducing reproductive maturation and increase breeding efficiency.
+Does Broodstock is measured in weight or count?,Broodstock is measured in terms of weight (grams). The average weight of single male/female shrimp in Broodstock is around 30 - 100 grams in the period of 6-8 months.
+What is the spawn cycle in shrimp hatchery?,"1. Spawn cycle refers to the recurring process of reproductive activity in shrimp populations. 
+2. It includes the maturation of male and female shrimp, the release of eggs by females, and the fertilization of those eggs by male shrimp."
+"what is the spawn cycles, and is there any limit for spawns?","1. Once the all available females are matured and brought for mating, then 1 spawn cycle is completed for that females.
+2. A typical hatchery run 8-10 spawns for a batch, If it goes beyond the cap then the strength of the egg/seed/juvenile decreases and also maintenance cost also increases."
+On an average how many eggs are fertilized in one spawn cycle by one female?,1-3 Lakhs in 0ne spawn cycle by one female in the entire lifecycle.
+What is spawning and how is it done?,"1. Spawning is a crucial step in shrimp life cycle as it leads to production of offspring.
+2. Spawning in shrimp farming refers to the process of reproduction in which female shrimp release eggs, and males release sperm (milt) for fertilization. The eggs are externally fertilized, meaning that the sperm fertilizes the eggs in the surrounding water.
+3. Once fertilized, the eggs develop into larvae, which go through various stages of development before becoming juvenile shrimp."
+Management of spawned eggs?,"The spawned eggs may be collected and transferred to separate hatching tanks after egg wash, where they are carefully monitored and provided with suitable conditions for optimal development."
+What are the process cycles present in Hatcheries?,"1. Hatcheries majorly consists of 2 sections. Maturation and Rearing.
+2. Maturation section consists of brood maturation, spawning and naupliis.
+3. Rearing section starts from nauplius to post larvae (PL) production."
+Different stages and its time periods present in the rearing section?,"1. The Rearing section has 4 stages and each stage has different time periods. 
+2. Stage-1: Nauplius I-VI. These 6 moltings take 2 days (50 hours).
+3. Stage-2: Protozoeal 1-3. This stage takes 4-6 days.
+4. Stage-3: Mysis 1-3. This stage takes 10-12 days.
+5. Stage-4: Post Larvae 1-13. In this stage, approximately each PL change takes 1 day. For example, PL 3 means 3 days"
+Types of feed used in different sections of hatcheries?,"1. Different feeds are used at different stages in hatcheries. They are Artemia, Microparticulate feeds, Microencapsulated feeds, Semi-moist or Moist Pellet feed, Dry pellet feeds.
+2. Artemia, commonly known as brine shrimp, is an important live feed used in shrimp hatcheries, especially during the larval stages. First larval stage is also known as Nauplius. Artemia are small and highly nutritious, providing essential nutrients and promoting healthy growth in shrimp larvae.
+3. Microparticulate feeds are finely ground or powdered feeds designed for very small shrimp larvae or post-larvae. These feeds contain high levels of proteins, lipids, vitamins, and minerals to meet the nutritional requirements of early-stage shrimp.
+4. Microencapsulated feeds are specialized feeds where the nutrients are encapsulated in small particles. These feeds are often used during the early larval stages when shrimp have limited feeding capabilities. Microencapsulation helps protect the nutrients and improves their digestibility.
+5. Semi-moist or Moist Pellet Feed is used when shrimp larvae are growing and in transition to post-larvae stages. These pellets are usually soft, semi-moist, or moist in texture, making them easier for the shrimp to consume and digest. These feeds contain balanced nutrition to support growth and development.
+6. Dry pellet feeds become the primary feed source once shrimp reach the juvenile or grow-out stages. Dry pellet feeds are available in various sizes and formulations to meet the specific nutritional needs of different shrimp species and growth stages."
+Treatments used in different sections of hatcheries?,"1. Minerals, Multi Vitamins, PreBiotics and ProBiotics.
+2. Minerals - Calcium, Magnesium, Potassium, Sodium, Phosphorus.
+3. Multi Vitamins - Vitamin A, B Complex, C, D, E.
+4. Prebiotics - Fructooligosaccharides (FOS), Inulin, and Mannan oligosaccharides (MOS).
+5. Probiotics - Include various strains of Bacillus, Lactobacillus, and Saccharomyces."
+Lab tests performed in different sections of hatcheries?,"1. Some common lab tests are Water Quality Analysis, Microbiological Analysis, Plankton Analysis, Larval Health Screening, Nutritional Analysis, Genetic Analysis, Waterborne Larval Pathogen Screening and others .
+2. It's important to note that the specific laboratory tests conducted in shrimp hatcheries may vary depending on the hatchery's protocols, the specific species being cultured, regional regulations, and the presence of specific diseases or challenges."
+Water quality treatments performed in different sections of hatcheries?,"Temperature, PH, Salinity, Dissolved Oxygen (DO), Ammonia, Nitrate, Nitrite, Total Suspended Solids (TSS), CO2, Alkalinity, Hardness, Phosphate, Heavy metals, etc."
+Tests present in Microbiology Analysis?,"1. It helps in assessing the microbial load in water, tanks, equipment, and shrimp larvae or post-larvae. 
+2. Tests are Bacterial Analysis, Fungal Analysis, Viral Analysis (PCR), Parasitological Analysis."
+Tests present in Pathogen Screening?,"1. DNA based pathogen detection.
+2. Viral Pathogen Screening - helps in identifying Infectious Hypodermal and Hematopoietic Necrosis Virus (IHHNV), White Spot Syndrome Virus (WSSV), Taura Syndrome Virus (TSV), and others.
+3. Bacterial Pathogen Screening - helps in identifying Vibrio app and others.
+4. Fungal and Parasitic Pathogen Screening - helps in identifying characteristic structures such as spores or cysts.
+5. Antibiotic Sensitivity Testing."
+What is a shrimp hatchery?,"1. hatchery is a specialized facility where the early stages of shrimp life, including spawning, hatching, and larval rearing, take place.
+2. It is designed to provide optimal conditions for the reproduction and development of shrimp larvae."
+What is the purpose of shrimp hatchery?,The primary purpose of a hatchery is to produce high-quality shrimp post-larvae (PL) or seedlings that can be used for stocking in grow-out ponds or shrimp farms
+What activities are typically present in shrimp hatchery?,"Broodstock Management, Spawning, Egg Incubation, Larval Rearing, Feed and Nutrition, Water Quality Management, Disease Management, Post-Larval Harvesting and Distribution"
+What is the price of post Larvae (PL) in india?,"1. The price of post-larvae (PL) in India can vary depending on various factors such as the shrimp species, size of the PL, quality, demand-supply dynamics, location, and market conditions. And also fluctuate for factors like seasonal variations, disease outbreaks, and market trends.
+2. To get most accurate price, it is recommended to reach out to local shrimp hatcheries, aquaculture associations, or shrimp farming suppliers."
+What is the average cost incurred to develop a PL from brood management/ spawning stage?,"1. Cost depends on several factors, including the specific hatchery setup, management practices, the species of shrimp, feed and nutrition costs, labor, infrastructure, and other operational expenses.
+2. On an average the cost incurred for one PL is around Rs 0.26 - 0.29"
+Optimum FCR for a shrimp hatchery?,"1. Hatcheries primarily focus on providing appropriate nutrition and optimal growth conditions for shrimp larvae rather than calculating FCR.
+2. The goal in a hatchery is to ensure healthy development and survival of the larvae until they reach the desired post-larval (PL) stage for stocking in grow-out ponds or farms."
+Optimum survival rate in a shrimp hatchery?,"1. The optimum survival rate in a hatchery can vary depending on the species of shrimp being reared and the management practices implemented.
+2. The ideal survival rate can vary, but hatcheries generally aim for survival rates above 80% or even higher."
+Man power or personal required to run a shrimp hatchery?,"1. It's important to note that the specific roles and number of personnel required will depend on the complexity, scale, and goals of the hatchery.
+2. However, in general, Hatchery Manager, Hatchery Technicians, Broodstock Management Team, Larviculture Team, Water Quality Technician, Quality Control/Assurance, Administrative and Support Staff."
+What is the reason for running mortality ?,Reasons of running mortality - White muscle disease - Bacterial white tail disease - NHP(Necrotizing Hepatopancreatitis ) - Harmful and toxic Algae - H2S.(soil- foul odor of rotten eggs)
+What is the solution for black Gill damage?,"Brownish to blackish discoloration on the gills it's called brown/black gill diseases. High content of dissolved organic matter and turbidity, Unhealthy shrimp ( secondary infection) Fouling organisms, fungus, ciliated protozoan, bacteria."
+What are the important factors to be considered while selecting shrimp seeds?,Successful shrimp farming starts from stocking good quality seeds. Good quality seeds reduces the risks in your culture cycle.
+What is White Feces Syndrome Disease?,White feces syndrome (WFS) of shrimp refers to the condition where digestive tract malfunctions and feces turns into white. WFS is generally characterized by floating feces white strings on the water surface and they can also be found in the check tray.
+How to Overcome Improper Moulting?,Shrimp generally molt every three to eight weeks and it takes a correct amount of Iodine to promote proper shrimp molting.
+Why my shrimp (Vannamei) shows poor growth or stunned growth?,The growth of your shrimp mainly depends on the above factors. Farmers should check these parameters regularly. High FCR leads to increased feeding and high production cost.
+What is the problem of hardshell ?,"Due to excess level of hardness, exoskeleton of animal changed from normal to hard like rubber that is called hardshell of P.vannamei. Reasons for Hardshell - Excess hardness, Excess alkalinty, Excess iron contents."
+What is term Ablation called ?,"Extripation, removal or otherwise damaging the eye in some manner to promote maturation."
+What is Artemia ?,Its a Brine shrimp.
+What is Broodstock?,Larger animals that are sourced and expected to produce offspring in the maturation fecility.
+What is Cysts?,Eggs of Artemia that are in a dormant stage.
+What is exoskeleton?,Shell of the shrimp.
+What is Hepatopancreas?,Its a digestive gland.
+What is a Larvae?,Plural of larva and the stage in the devlopment of a shrimp's life cycle between the egg and the juvenile.
+What is maturation?,"The act of maturing (in the case of white shrimp, egg devlopment, mating and then spawning; with brown shrimp, mating, egg devlopment, and spawning)."
+What is term molt?,"For shrimp, shedding of the exoskeleton."
+What is Nauplii?,Plural of naplius and first of the three major larval stages. Its a non-feeding stage and is the best stage to transport the animals untill they reach the PL stage.
+What is term Petasma?,Its Male shrimp reproductive structure.
+What is term Protozoea?,New world term of zoea or the second major larval stage of penaeid shrimp.
+What is called Raceway?,"A small pond or a tank that is usually rectangular with a center divider or circular tank with a water flow that ""races"" around the tank."
+What is term called Rostrum?,The pointed prow that extends from the head of most shrimp.
+What is term Setae?,Hair like structure that appear to branch of the appendages or legs.
+What is Sourcing?,Obtaining animals to be used for broodstock.
+What is Spore?,A small cell that can develop into a new individual.
+Whai is Thelycum?,Female shrimp reproductive structure.
+What are the different types of tanks used in Hatchery culture?,"Maturation, Spawning, Larval, & Postlarval, Algal, Artemia, & Sea water reservoir."
+What are the tank shapes used in the hatchery culture?,"Round, Square, Rectangular, Half-barrel, Oval raceway, Cylindro-conical."
+What are the materials used to make tanks in the hatchery culture?,"Ferrocement, Concrete, plastic, Fiberglass, Asbestos."
+What is the Criteria in the selection of a suitable site for a hatchery?,"1. Sea water supply
+2. Availability of spawners
+3. Availability of power source
+4. Freshwater supply
+5. Accessibility
+6. Climatic conditions"
+What is success of a shrimp hatchery depends on?,"1. The choice of a suitable site
+2. Effectiveness and efficiency of the hatchery design
+3. Experience of hatchery technicians
+4. Efficiency of operational management"
+How long does it take to grow shrimp?,"Generally from the shrimp hatch to harvest takes about 7-8 months. Again, it depends on what size of shrimp is required for the market. Dwarf shrimp usually takes much lesser from hatch to harvest."
+How many shrimp can you have per gallon?,"It is recommended to put 10 small shrimps per gallon of water. However, if someone is new to shrimp farming then it is recommended to farm only 5 shrimp per 1 gallon of water. Many experienced farmer's house more then 100 shrimp per 100 gallon of water."
+How long do shrimp eggs take to hatch?,"Generally, each shrimp has 20-30 eggs, which take 2 to 3 weeks to hatch. Normally the egg is green or yellow in colour and its get darker untill the young shrimp hatch after 3 weeks."
+Can shrimp be raised in freshwater?,"Farming shrimps in a freshwater tank is not economical because shrimps are extremely territorial and cannibalistic , which causes poor survival in tanks. Freshwater culture is not recommended for a shrimp farming."
+How big can shrimps grow?,Generally pond raised shrimp juveniles grow from 3cm in length to a size 75 to 100g in about 5-6 months.
+what are the different types of Shrimp culture?,"Shrimp are farmed on the basis of three different cultures, they are:
+1. Traditional or extensive culture.
+2. Semi-intensive culture.
+3. Intensive culture."
+What are the two methods of shrimp pond cleaning?,Basically cleaning of the pond indicates removal of wastes such as organic and phosphatic wastes that accumulate at the bottom of the tank or pond. There are two ways of cleaning the shrimp growing ponds; they are dry & wet method.
+What is dry method of cleaning the ponds?,The name indicates that the bottom of the pond can be dried completely. The water is completely driend and allowed to dry in the sun for about 30 days. After this period the waste is removed either manually or through mechanical ways. This method can make the pond acidic in nature.
+What is wet method of cleaning the ponds?,"The water in the pond is cleaned of waste material by pressure washing, which flushes the waste out of the area. The dark anaerobic layer and acid is removed from the soil in the pond. Oxidation of soil should be avoided in this method."
+What are the good water treatment protocols for the hatchery?,"€¢ Sedimentation
+€¢ Water chlorination and dechlorination
+€¢ Filtration with sand filters
+€¢ Filtration with activated carbon filter
+€¢ Cartridge filtration up to 1 micron size
+€¢ UV filtration/ Ozonation"
+What are the Antibiotics and other Pharmacologically Active Substances banned for using in shrimp aquaculture?,"1. Chloramphenicol
+2. Nitrofurans including: Furaltadone, Furazolidone, Furylfuramide, Nifuratel, Nifuroxime, Nifurprazine, Nitrofurantoin, Nitrofurazone
+3. Neomycin
+4. Nalidixic acid
+5. Sulphamethoxazole
+6. Aristolochia spp and preparations thereof
+7. Chloroform
+8. Chlorpromazine
+9. Colchicine
+10. Dapsone
+11. Dimetridazole
+12. Metronidazole
+13. Ronidazole
+14. Ipronidazole
+15. Other nitroimidazoles
+16. Clenbuterol
+17. Diethylstilbestrol (DES)
+18. Sulfonamide drugs (except approved Sulfadimethoxine, Sulfabromomethazine and Sulfaethoxypyridazine)
+19. Fluroquinolones
+20. Glycopeptides"
+What are the impacts on environment due to the aquaculture?,"1. Impact on the water courses in the vicinity;
+2. Impact on ground water quality;
+3. Impact on drinking water sources;
+4. Impact on agricultural activity;
+5. Impact on soil and soil salinisation;
+6. Waste water treatment;
+7. Green belt development"
+What are the stages in shrimp pond management?,"1. Pond Preparation
+2. Pond Cleaning
+3. Dry method
+4. Wet method
+5. Liming
+6. Eradication of Predators
+7. Fertilization
+8. Areation"
+What are the stages involved in shrimp pond stocking?,"1. Seed selection
+2. Stocking density
+3. Technique of stocking"
+What are the stages involved in Seed selection criteria?,"1. Size
+2. Morphology
+3. Colour
+4. Behavior
+5. External Fouling
+6. Pathogen free"
+What are the stages involved in Seed stocking technique?,"1. Transportation
+2. Acclimation
+3. Nursing of Shrimp Post Larvae "
+What are the various kinds of diseases occured in Shrimp culture?,"1. Virus Infection
+2. Bacterial Infection 
+3. Fungal Infestation
+4. Protozoan and Parasitic Infestation
+5. Non-Infectious Diseases"
+My pond suffered a disease outbreak 30 days after stocking the last crop. Please advise me how to prepare the pond for the next crop?,"Prepare the pond normally by removing the black soil (sludge), which has a bad smell. Dispose this removed sludge away from the pond site. Maintain the water reservoir and culture the plankton in reservoir first and then transfer the water to grow-out ponds. Avoid clear water at stocking by adding more fertilizer to get a green color. Maintain pH and alkalinity by applying the required quantity of lime. This entire process may require 30 days before stocking. So plan the pond preparation accordingly."
+What should be the optimum soil pH for shrimp culture?,"It should be above 6. However, farmers should check the water pH and try to maintain it in the range of 7.5-8.5 by using lime, because it is difficult to completely rectify the soil pH problems."
+"Is the use of pesticide good or bad? If bad, do you suggest any alternative to disinfect the pond?",The use of pesticides is bad because they can accumulate in the environment as well as in the shrimps. Screening the water using water filters to prevent the carriers and storing the water for at least 7 days before pumping to grow-out ponds is a better option.
+What is the required water depth in culture ponds?,The optimum depth should be 1.2 meter. There should be a minimum depth of 0.8m in the shallowest part of the pond.
+Measuring pH using liquid pH indicators is not showing any minor fluctuations in pH. So how can this type of pH measurement be useful for the farmers?,"The purpose of using liquid pH indicators is to look only at the pattern or trend on how pH changes. Greater fluctuations of pH can be easily noted by farmers during critical periods using simple kits. Farmers can afford to have a simple liquid pH indicator, as its price is below Rs 100 and 200 tests can be carried out."
+How to reduce pH in saline waters when there is no color/bloom in the water?,"Exchanging the water by 10-20 % may introduce phytoplankton before applying fertilizer and some agricultural lime. This approach will lead to the bloom. Also one can try using 10 to 15 Kgs of rice bran or wheat bran in one ton of water (pond), stirred frequently at an interval of 2 to 3 hrs and fermented for seven days to develop acidic bacteria. The supernatant acidic water should be applied to the pond water every 7 days till the pH gets reduced to normal level."
+Why does pH change suddenly on daily basis?,Excessive algal blooms or low alkalinity.
+Why does pH rise suddenly when poultry manure is applied to get a bloom? How to control pH in such a situation?,Too much manure in a single dose can raise the pH suddenly. Reduced quantity of manure applied in 2-4 split dosages and subsequent addition of some water into the pond can control this situation.
+How to reduce ammonia and what level kills shrimps at high pH values?,"The most cost effective way to dilute any toxic condition, especially ammonia in the pond is to exchange some water. This will also reduce the water pH at the same time by diluting the bloom. The level of total ammonia nitrogen should not be higher than 1 ppm at pH value of 8.5."
+During rains the water temperature reduces and shrimps come to the sides. Why? And how to avoid it?,"The problem is caused by the cloudy sky that leads to reduced oxygen levels in the pond water. The feed consumption by shrimp gets reduced due to lower temperature. Therefore, feed quantity should be reduced and water exchange should be done if the water is too green in color."
+Is it good to use some fishes in shrimp ponds? If yes why? Which species and how many numbers should be introduced?,"Fish can be used in later stages of culture (after 60 days) for feeding on the plankton and benthic algae. In Thailand, 3,000-5,000 fry (1-2 cm.) of Tilapia are stocked in 1 ha. If the fish are big, then they can be stocked in cages. Some species like sea bass can eat the dead shrimp in the pond, which may help in reducing the transmission of virus from dead to live shrimp by avoiding cannibalism."
+"For water exchange, which time of the day is suitable?",Time does not make much difference. It can be done at any time as convenient to the farmer.
+Why is there a sudden collapse of bloom after 30 days of culture?,"For a healthy bloom to be maintained, it requires nutrients, carbon dioxide and sunlight. After around 30 days of culture the bloom develops heavily due to the availability of all three components. Due to heavy bloom the sunlight is prevented from penetrating the lower column of water thus leading to oxygen deficiency and death of plankton present in the lower column of water. This condition leads to collapse of the bloom."
+How to control blue-green algae (filamentous/slime forming species) in low saline waters?,"Water exchange is the most cost effective method. In cases where water exchange is not possible, aeration should be stopped during the strong sunlight period. This will allow the plankton to float on the surface where it will get pushed to the pond corner by the wind. The algae can be removed, or an algicide may be used in that corner of the pond to kill the algae. This is a low cost treatment method and safe for the shrimp since the chemical will be applied only to a small area. Repetition of this treatment may be necessary if the algae persists."
+How to control filamentous algae?,"In reservoirs, the phytoplankton bloom should be developed initially before shifting it to the grow-out ponds. Avoid using disinfecting agents in both reservoir and grow-out ponds."
+How to control benthic algae?,Initially culture the plankton in a reservoir and then shift the bloomed water to grow-out ponds. Avoid clear water at stocking by adding fertilizer as required. Even after these measures if the benthic algae develops then drag a heavy iron chain along pond bottom to dislodge the algae from the soil surface and then remove the floating benthic algae using a hand net.
+What is the reason for excessive algal bloom in the pond?,Mainly because of higher nutrient levels in the pond and less water exchange.
+"PL from the same hatchery tank were stocked in the same nursery pond and then distributed to 5 grow-out ponds. At the end of the crop, 3 ponds faced disease outbreaks and 2 ponds were harvested without disease problems. Why?","Disease outbreak not only depends on the seed quality but also on the individual pond management practices. Infected shrimp may not die at the same time in all the ponds. There may be a possibility that the 2 ponds with good harvests might have been managed better, leading to reduced stressed conditions in the pond."
+What is LSS ? How can it be prevented from the beginning?,"This is €œloose shell syndrome€ and is usually caused by chronic bacterial infection. The primary causes of this infection are toxic conditions at the pond bottom. This is mainly related to clear water with benthic or filamentous algae. Over feeding and high organic matter in the soil can also cause bad pond conditions and lead to the infection. To reduce the risk of this problem, pond bottom sludge should be removed during pond preparation. Maintaining green color water as well as better feed management to prevent benthic algae and pond bottom deterioration can also reduce the risk."
+What is vibriosis? What are the clinical signs? How to prevent the disease?,"Vibriosis is an infectious disease caused by Vibrio bacteria. The acute infection usually occurs when shrimps are one month old. Therefore, sometimes the farmers call it as one-month mortality syndrome. In higher salinity areas, the severity of this problem is usually greater and is caused by luminous species of bacteria. In this case the farmer may call the problem luminescent vibriosis. The clinical sign is not obvious. The sick shrimp is usually pale or darker color, with no feed in the gut. Sometime the problem is associated with soft shell. In later stages of the production cycle, the infection seems to be a chronic type. This is usually associated with loose shell syndrome. To prevent the infection, the pond should be prepared well and the green color must be maintained to prevent benthic algae. The pond bottom condition must be kept clean to prevent high organic matter accumulation."
+Can antibiotics control the white spot disease outbreaks?,Viral diseases in shrimps cannot be treated by antibiotics.
+"In shrimp nurseries, cutting insects are present and kill the PL. How to control them?",Spread palm oil over the water surface at the rate of 15- 20 litres/ha in the evening hours.
+Can L.vannamei be farmed along with other indigenous species?,"No, farms approved for L.vannamei culture are not permitted for simultaneous farming of any other curstacean species in the same farm."
+What is the permitted stocking density for culture of L.vannamei?,Stocking densities should not exceed 60 no./sq.mt
+What is the role of a Business admin in BluBay ?,"Business admin is responsible for the all administrative activities like Infra creation, Inventory item creation, role creation and assignments for the entire Farm business from web application."
+What is the role of a Farm owner in BluBay?,"Farm owner is responsible for the all activities and overview the system process for the entire Farm business, including all locations."
+What is the role of a Farm manager in BluBay?,Farm manger is responsible for the all activities and overview the system process for one of the assigned location under the Farm business.
+What is the role of a Farm Technician in BluBay?,"Farm technician is responsible for the all activities like feeding, treatment, & etc.. for the assigned farm section in a farm site."
+Can Admin create multiple Farm owner logins for a single Farm business?,"Yes, Admin can create multiple farm owner logins for a single farm business. However, single farm owner login is preferred based on the business model."
+Can multiple Farm manager logins created for a single location in BluBay?,"Yes, in Blubay each location can have multiple manager logins."
+Can each farm manager have multiple farm sites in Blubay?,"Yes, in Blubay each farm manager can have multiple farm site assignement."
+What does Blubay do?,"1. Efficient data management with digitized farms for centralized data control, reporting and analytics.
+2. Harness the power of data based on Feed Protocols and Feeding Regimes to design feed formulations tailored to your shrimp's specific needs.
+3. Enable seamless SME communication and Culture advisory with €˜Aquatoq.
+4. Simplify seed procurement, enhance record-keeping services."
+What are the exclusive activities involved or offered by BluBay?,"Feed, Treatment, Observation, Water quality, Sampling, Shifting, Abort, & Seed sourcing are the basic activities involved/offered by Blubay regular version."
+What are the Basic activities involved/offered in the Blubay premium user?,"Culture estimate calculator, Market connect for seed sourcing, Aqutoq, Farm management, Blubot-chat support, Inventory control."
+Which type of farmer model avail this BluBay?,"Blubay supports Small, Medium, & Corporate farmers."
+What are the exclusive KPI's provided in Blubay?,"Total Biomass (TBM), Present Biomass, Harvested Biomass, Consumption, Survival rate, ABW, FCR, ADG, Total exp per each pond, & Production cost/kg, are the exclusive KPI's provided in BluBay"
+Does BluBay supports batch wise and as well section wise activities?,"No, BluBay supports only Section wise activities."
+Does BluBay supports pond wise and as well section wise Feed entry?,"Yes, BluBay supports both pond & section wise feed entries."
+Does BluBay supports pond wise and as well section wise Treatment entry?,"Yes, BluBay supports both pond & section wise treatment entries."
+Does BluBay supports pond wise and as well section wise Water quality entry?,"No, BluBay supports only pond wise water quality data entry."
+Does BluBay supports pond wise and as well section wise Sampling entry?,"No, BluBay supports only pond wise sampling data entry."
+Does BluBay supports pond wise and as well section wise Observation entry?,"No, BluBay supports only pond wise observation data entry."
+Does BluBay supports pond wise and as well section wise Harvest entry?,"No, BluBay supports only pond wise harvest data entry."
+Does Feeding in BluBay allow multi meal per day?,"Yes, BluBay allow multi meal feeding in a day."
+Does Feeding in Blubay allow multi day entry?,"Yes, BluBay allow multi day feeding in a single entry."
+Does Feeding in BluBay allow the edit/update/delete the entry?,"Yes, BluBay allow edit/update feed entries in current day only, delete function not allowed."
+Does BluBay allow multi treatment in a day?,"Yes, BluBay allow multi treatments entry in a day."
+Does Treatments in BluBay allow multi day entry?,"Yes, BluBay allow multi day treatments in a single entry."
+Does Treatment in BluBay allow the edit/update/delete the entry?,"Yes, BluBay allow edit/update Treatment entries in current day only, delete function not allowed."
+Does BluBay allow multi Observations in a day?,"Yes, BluBay allow multi observations entry in a day."
+Does Observations in Blubay allow multi day entry?,"No, BluBay not allow multi day observations in a single entry."
+Does Observations in BluBay allow the edit/update/delete the entry?,"Yes, BluBay allow edit/update Observation entries in current day only, delete function not allowed."
+Does Water quality in BluBay allow multi entry in a day?,"Yes, Blubay allow multi entries in water quality in a day."
+Does Water quality in BluBay allow multi day entry?,"No, BluBay not allow multi day water quality entries in a single entry."
+Does water quality in BluBay allow the edit/update/delete the entry?,"Yes, BluBay allow edit/update Waterquality entries in current day only, delete function not allowed."
+Does Sampling entry in Blubay allow multi entry in a day?,"Yes, BluBay allow multiple sampling entries in a day."
+Does Sampling in BluBay allow multi day entry?,"No, BluBay not allow multiple day sampling entries in a single entry."
+Does Sampling in BluBay allow the edit/update/delete the entry?,"Yes, BluBay allow edit/update sampling entries in current day only, delete function not allowed."
+Does Harvest entry in Blubay allow multi entry in a day?,"Yes, BluBay allow multiple harvest entries in a day."
+Does Harvest in BluBay allow multi day entry?,"No, BluBay not allow multiple day harvest entries in a single entry."
+Does Harvest in BluBay allow the edit/update/delete the entry?,"Yes, BluBay allow edit/update harvest entries in current day only, delete function not allowed."
+Does BluBay allow post dated Feed meal entries?,"Yes, BluBay allow post dated feed meal entries."
+Does BluBay allow post dated Treatment entries?,"Yes, BluBay allow post dated treatment entries."
+Does BluBay allow post dated Observation entries?,"Yes, BluBay allow post dated observation entries."
+Does BluBay allow post dated Water quality entries?,"Yes, BluBay allow post dated water quality entries."
+Does BluBay allow post dated Sampling entries?,"Yes, BluBay allow post dated sampling entries."
+Does BluBay allow post dated Harvest entries?,"Yes, BluBay allow post dated harvest entries."
+Does BluBay allow post dated pond shift functionality?,"No, BluBay not allow the post dated pond shift functionality."
+Does BluBay allow post dated pond culture close functionality?,"Yes, BluBay allow the post dated pond culture close functionality."
+Does Pond culture close in BluBay allow the edit/update/delete the entry?,"No, BluBay not allow edit/update/delete the pond culture close entries."
+Does BluBay allow post dated Pond creation/addition?,"Yes, BluBay allow post dated pond creation/addition."
+Does BluBay allow post dated Pond-Culture creation/addition?,"Yes, BluBay allow post dated pond-culture creation/addition."
+Does BluBay allow multiple pond cultures running simultaneously in a section or farmsite?,"Yes, Blubay allow multiple pond cultures running simultaneously in a section or farmsite."
+What types of shrimp species does BluBay support?,"BluBay supports a wide range of shrimp species commonly used in farms, including whiteleg shrimp, black tiger shrimp, and Scampi."
+What types of fish species does BluBay support?,"BluBay supports a wide range of fish species commonly used in farms, including Common carps, Other carps, Pangasius, Tilapia, Roopchanda, etc..."
+"In BluBay, each farm business consists of?",In BluBay each farm business consists of multiple farm site locations.
+"In BluBay, each farm site Location consists of?",In BluBay each Farm site Location consists of multiple sections.
+"In BluBay, each section consists of?",In BluBay each Section consists of multiple Ponds.
+Does BluBay have the mechanism to capture inventory items?,"Yes, BluBay have the mechanism to capture inventory item master."
+Does BluBay have the mechanism to capture expense items?,"Yes, BluBay have the mechanism to capture expense item master."
+Does BluBay have the mechanism to produce in-app notifications?,"Yes, BluBay have the in-app notifications."
+Does BluBay have the mechanism to capture vendors?,"Yes, BluBay have the mechanism to capture vendor master."
+Does BluBay have the mechanism to capture all inventory transactions?,"Yes, BluBay have the mechanism to capture inventory transactions."
+What are the inventory transactions involved in the BluBay?,"Transfer/Return, Miscellaneous, Issue, Balance migration, & Purchases are the inventory transactions involved in the BluBay."
+Does BluBay have the mechanism to capture all expense transactions?,"Yes, BluBay have the mechanism to capture expense transactions."
+What are the expense transactions involved in the BluBay?,Reversal & Issue are the expense transactions involved in the BluBay.
+Does BluBay allow post dated inventory transactions?,"Yes, BluBay allow the post dated inventory transactions."
+Does BluBay allow post dated expense transactions?,"Yes, BluBay allow the post dated expense transactions."
+Does BluBay allow Section/Tank specified expense transactions?,"Yes, BluBay allow the Section/Tank specified expense transactions."
+Does BluBay have the Petty cash functionality?,"No, BluBay don't have the Petty cash functionality."
+Does BluBay allow the attachments when the time of doing inventory transactions?,"Yes, BluBay allow the attachments when the time of doing inventory transactions."
+Does BluBay allow the attachments when the time of doing expense transactions?,"Yes, BluBay allow the attachments when the time of doing expense transactions."
+Does BluBay allow the transactions of capital expense?,"Yes, BluBay allow the transactions of capital expense."
+Does BluBay allow the transactions of operating expense?,"Yes, BluBay allow the transactions of operating expense."
+Does BluBay allow the multiline inventory transactions on same date?,"Yes, BluBay allow the multiline inventory transactions on same date."
+Does BluBay allow the multiline expense transactions on same date?,"No, BluBay not allow the multiline expense transactions on same date."
+Does BluBay allow the payment transactions to Vendors?,"Yes, BluBay allow the payment transactions to vendors. But, no payment gateway involved."
+Does BluBay provides spend of each pond in the farm?,"Yes, BluBay provides spend of each pond in the farm."
+Does BluBay provide the reports?,"Yes, BluBay provides multiple types of reports."
+Typically what type of reports does BluBay provides?,BluBay provides both MTL & Performance related reports.
+What are the MTL related reports provided by BluBay?,"Material Transactions, Batch Transactions, Material movement report, Transactions report, Payment report, Farm spend analysis, & Payments transaction report are provided by BluBay."
+What are the Performance related reports provided by BluBay?,"Culture summary, Pond summary, Day summary, & Traceability reports are provided by BluBay."
+Does BluBay allow the reports to be exported to Excel or any other format?,"Yes, BluBay allow all the reports to be exported to Excel format."
+Does BluBay have the Shift functionality?,"Yes, BluBay have the shift functionality."
+Does BluBay provide process data for running culture pond?,"Yes, BluBay provides process data for running culture pond in Pond summary report."
+Does BluBay provide process data for closed culture pond?,"Yes, BluBay provides process data for closed culture pond in Culture summary report."
+What is the main use of Market connect in BluBay?,"In BluBay, using Market connect farmers get the seed availability postings from hatcheries & nurseries in BluH."
+Does BluBay provide cost of production for each pond?,"Yes, BluBay provides production cost for each pond."
+What is the role of a SME in BluBay?,"SME in Blubay have the privilege to view the Farm/Sec/Pond KPI's along with the image/video observations in AQUTOQ screen, and provide his comments/recommendations to farm person using chat screen."
+What is the role of a Farm Invester in BluBay?,"Farm invester in Blubay have the privilege to review MTL side information like Farm spend, Onhand inventories, Cost of production/pond, etc.."
+Does SME have both Web & Mobile app privilege in Blubay?,"No, in BluBay SME have Mobile app privilege only."
+Does Farm Invester have both Web & Mobile app privilege in Blubay?,"No, in BluBay Farm invester have Mobile app privilege only."
+Does Farm Owner have both Web & Mobile app privilege in Blubay?,"Yes, in BluBay Farm owner have both Web & Mobile app privilege."
+Does Farm Manager have both Web & Mobile app privilege in Blubay?,"Yes, in BluBay Farm Manager have both Web & Mobile app privilege."
+Does Farm technician have both Web & Mobile app privilege in Blubay?,"No, in BluBay Farm technician have Mobile app privilege only."
+Does Business admin have both Web & Mobile app privilege in Blubay?,"No, in BluBay Business admin have Web app privilege only."
+Does BluBay provides any analytics regarding any KPI's?,"Yes, BluBay provides Feed, Growth, & Water quality analytics in Web application."
+Does BluBay allow customised Feed rate assignments?,"Yes, BluBay allow customised Feed Rate assignments. "
+Does BluBay gives the Smart meal suggestions on a daily basis?,"Yes, BluBay provides the Smart meal suggestions on a daily basis."
+In BluBay what factors are deciding Smart meal suggestions?,"In BluBay; Lunar calendar, Weather, Last day feed, & Checktray are the factors deciding the Smart meal suggestions."
+Does BluBay provide any comparison graphs for the KPI's?,"Yes, BluBay provides the Actual vs Projected feed, DOC vs consumed feed, & DOC vs Growth graphs."
+Does BluBay provide any graphical representation for the Metrics?,"Yes, BluBay provides graphical representation to Pond, Feed, Density, Harvest, Water quality, & Sampling metrics."
+What happens if running Pond is shfted to another pond in BluBay?,"In BluBay, if running pond is shifted to another pond, it transfers MTL expense related transactions, & Process related transactions like TBM, SR%, FCR, Stocking number, etc.."
+Does Culture calculator provide the estimates for the required count in BluBay.,"Yes, culture calculator in BluBay provides the estimates based on the entered count. "
+Does Culture calculator provides the estimated Cost of Production per pond level?,"Yes, culture calculator in BluBay provides the estimated cost of production per pond."
+How many days of pond drying between two cultures is required in P. vannamei farming?,"After the final harvest of a crop, sun drying of pond bottom for 3-4 weeks is essential till it cracks or loses its moisture content. Drying and cracking of pond bottom helps in microbial decomposition of soil organic matter and mineralization of organic nutrients (nitrogen and phosphorus). If the previous
+culture was affected by white spot syndrome virus, it has been observed that the virus remains in the soil for 19-21days in drainable ponds whereas in case of non-drainable ponds, it remained infective for 35 days. In such cases, 5-6 weeks of drying is recommended to eradicate the pathogens. Moreover, screening of pond sediment is also essential to detect the presence of viral pathogens in such ponds. Further, investigations on duration of
+drying period revealed that farms practicing drying duration of 3, 5 and 10 days were affected with RMS and white gut diseases and harvested within 60 to 70 days of stocking whereas the farms that adopted a drying period of 30 and 45 days had successful harvest."
+What measures need to be taken to disinfect the pond bottom in case of non-drainable ponds?,"In case of completely non-drainable ponds, the accumulated black soil in the pond bottom is flushed in the form of thin slurry using a sludge pump. Organic biodegradable piscicides like Mahua Oil Cake (100-150 ppm) or Tea Seed Cake (15-20 ppm) or chlorine @ 20 ppm can be used for elimination of unwanted organisms. Formalin or potassium permanganate or povodine iodine can also be used to kill the bacteria and external parasites as these compounds are degradable within the system and do not cause water pollution. Calcium Oxide (CaO) is recommended for enhancing the oxidation of organic matter and also is a disinfectant."
+Is scraping of pond bottom essential? What would happen if a farmer does not do so?,"Organic wastes in the form of a black layer at the pond bottom is formed due to the accumulation of decayed uneaten feed, dead and decaying plankton/algae and fecal matter of shrimp during culture. This type of waste material releases toxic organic metabolites like ammonia and hydrogen sulphide into the pond water and causes stress or death to the shrimp. Therefore this black soil layer to a level of 5-10 cm depth should be scraped and dumped away from the farm. If a farmer does not remove the black soil before starting the next crop, the possibility of having higher toxic metabolites at the pond bottom remains very high which would affect the pond environment thereby
+causing stress to shrimp."
+Whether ploughing before and after liming is necessary? What type of plough should be used?,"The main purpose of ploughing is to expose the black soil underneath the bottom to sunlight and atmospheric oxygen. This results in the organic wastes in the pond bottom getting oxidized and making them as available nutrients. Presence of moisture in soil (i.e., under wet soil conditions) during ploughing, allows bacteria to work better in breaking down the black organic matter, thus making the ploughing process more effective. Ploughing before liming is more useful and tilling after liming could enhance the soil pH. Ploughing the bottom soil with cultivator first and thereafter with rotavator proved better for oxidation of the soil and enhanced the availability of nutrients, released obnoxious gases and decomposition was greater. Rotavator makes smaller lumps of soil which provides better oxidation and minimizes seepage."
+How should one decide the disinfection dose for initial pond water? How should bleaching be done?," Disinfection of initial water taken to the pond is essential to kill unwanted organisms, pathogens and their hosts. Otherwise there is every chance that vectors of pathogens could enter through the water. Generally 20-30 ppm chlorine (600 kg of bleaching powder/ha) is used as no microbes or its hosts could survive such a chlorination dose.However, ascertaining the organic load in the source water (chlorine demand) and chlorine percentage in the bleaching powder would be better indicators to decide the chlorination dose."
+Does bleaching affect the efficiency of minerals present in the water during disinfection?,No. Disinfection of pond water with bleaching powder will not affect the efficiency of minerals present in the water.
+Does the ground water also require disinfection?,"Disinfection is carried out to kill unwanted organisms, pathogens and their hosts. Since bore well water may not have any of these, disinfection is not required for ground water"
+Do we need to apply lime after disinfecting the initial pond water to adjust the pH?,"Liming of shrimp ponds is done to neutralize soil acidity, increase the total alkalinity, total hardness concentration and enhance the primary food productivity in the pond water. When the soil pH is below 7 and the total alkalinity is less than 60 ppm liming is required. Agricultural limestone (CaCO3 ) is a safe product. Extra care is required if lime is applied in the form of burnt lime (CaO) and hydrated lime (calcium hydroxide) . If they are excessively used, the pH would tend to be very high which is dangerous. To increase the pH by 0.1, we need to apply approximately 50 kg of CaO or Ca(OH)2 or 100 kg of CaCO3. If the soil pH is more than 7 and the total alkalinity more than 60 ppm application of lime is not necessary. In case of slight adjustment of pH during pre-stocking preparations, dolomite (calcium and magnesium carbonate) can be used this would help in plankton development. In low saline waters, liming can improve phosphorus availability and enhance the pond productivity."
+Is aeration before stocking is necessary?,"Farmers apply fermented organic juice for the development of phytoplankton and minerals in case of low saline cultures to keep the optimum mineral requirements. In order to mix these uniformly throughout the pond, minimum aeration is required with at least 2 paddle wheel aerators at the corners of the pond"
+"How does application of fermented juice help in improving
+the water quality?","Application of fermented juice enhances the population of beneficial bacteria. The bacteria require protein for its metabolic activity and the protein is synthesized by using the ammoniacal nitrogen present in the pond water. Thereby it reduces the ammonia level in the pond and improves water quality. Further, the fermented juice helps in lowering the high pH to the desired level and enhances the development of plankton food."
+"Farmers apply molasses instead of fermented juice. Which one is more effective for water
+culture?","Molasses contain more carbohydrates thereby enabling the growth of beneficial bacteria in higher density. Since molasses is not freely available to the farmers coupled with a higher requirement of aeration after its application, the use of fermented juice is more acceptable to the farmers."
+What is C: N ratio and its significance in P. vannamei shrimp farming?,"C: N ratio is the ratio of carbon and nitrogen in the pond water and a ratio of 10:1 normally exists in shrimp ponds. However, in case of P. vannamei due to the high stocking densities, more nitrogenous waste is generated in the form of ammonia and nitrite which deteriorates the water quality. To minimize this problem, carbon sources in the form of fermented juice or molasses is applied which act as a medium for the growth of beneficial bacteria enhancing the C: N ratio to the level of 20:1.These beneficial
+bacteria require nitrogen to produce proteins for their metabolic activity and development and absorb nitrogen from the ammonia or from the fecal waste which is the source of nitrogen. Due to this, the harmful ammonia and nitrite are converted to proteins by the bacteria. Further, this bacteria forms €œbio-floc€ by adhering to the dead cells, inert materials thereby becomes the feed for P. vannamei shrimp. Hence, the feed quantity requirement can also be reduced considerably. The C: N ratio needs to be checked fortnightly and has to be maintained."
+What is biofloc and explain the procedure to develop and maintain the same in simple terms?,"Biofloc is a consortium of macro-aggregates consisting of diatoms, macroalgae, fecal pellets, exoskeleton, remnants of dead organisms, bacteria, protest and invertebrates. A 10- 15ml/litre level of (imhoff cone) biofloc should be maintained in the shrimp pond. Addition of organic carbon in the form of fermented solution or molasses acts as a medium for the enhanced production of beneficial bacteria which absorb inorganic nitrogen from the pond water immobilizing the potentially toxic ammonia and nitrite. This system reduces the total ammonia nitrogen (TAN) thereby decreasing the organic load at the pond bottom which helps to keep hydrogen sulphide under control. Typically a biofloc pond starts as an autotrophic/algal dominated system and after a few days the water turns brown and foamy as floc develops and the system shifts to a heterotrophic system without much algae.The advantages of this system are: zero/minimal water exchange system, insitu bioremediation
+to maintain water quality, augmentation of natural food and improvement of FCR, non-use of chemicals and other medicines and negligible environmental impact. Protein requirements in feed could be brought down in these systems and the cost of production in terms of feed would be less. Biofloc system may have 5-10% excess carrying capacity, gain by 2 g in ABW, low FCR and lower production cost by 10-15%. However, it requires, high aeration up to 28HP/ha, continuous (24x7) electricity, full/semi HDPE lined ponds and trained technicians."
+Whether biofloc system is feasible for a small scale P. vannamei culture?,"In case of small scale farming with a moderate stocking density of 20-30 PL/m2 it may not be required. Optimum stocking, proper feed management and efficient water quality (pH, DO, minerals, bottom metabolites) management are sufficient for problem-free shrimp farming.
+"
+Whether P. vannamei farming requires deep ponds with a central drainage system?,"White shrimp P. vannamei is a column dweller and not a bottom dweller like tiger shrimp. Further,in case of P. vannamei, high stocking density up to 60 PL/m2
+is practiced, hence it requires deep ponds having 1.5 m water column. Central drainage system would help in removing accumulated sludge."
+What is the carrying capacity of a shrimp pond and how do you arrive at an optimum stocking density for a pond culturing P. vannamei?,"It is the optimal biomass (tonnes of shrimp/ha) holding capacity of the pond. Carrying capacity of a shrimp pond is dependent upon many factors like biosecurity, electricity, aeration, water quality, quality of inputs, practices followed, technical and management capacity of the individual farmer and other extraneous factors. Based on the experience, a farmer should decide the optimum stocking density for the pond within the permitted level."
+"Whether P. vannamei farming needs a modification/alteration in pond design? If yes, how?","Yes. P. vannamei culture pond should have a water column of 1.5 m depth. Since P. vannamei is stocked at higher densities, it requires higher level of aeration for a longer time for water circulation and maintaining the optimum required level. Continuous aeration might cause erosion of bunds and hence adequate compaction of the dykes is essential. HDPE lining of dykes would minimize erosion. Besides, full time (24x7) electricity, generator back up and biosecurity measures are essential."
+How does ageing of pond water prior to stocking help in culture and what are its advantages?,"The white spot virus can survive as free living form in water up to 12 days. Ageing of pond water after chlorination and de-chlorination will help in removing them. After 12 days, addition of fermented juice is beneficial due to enhanced bacterial growth in adequate quantity and has abundant primary productivity."
+What is SPF P. vannamei shrimp?,"The seeds produced from the Specific pathogen free (SPF) P. vannamei shrimp brood stock are known as SPF P. vannamei.These SPF broodstocks are developed under rigorous quarantine and screening of pathogens over several generations from the SPF mother/founder broodstocks. Countries or regions which still do not have this species can be reasonably sure that the importation of SPF animals will not result in the introduction of the specified pathogens for which the animal is declared €œfree€. This does not, however, guarantee against the animal being infected with known /unknown pathogens which are not screened against during the SPF programme.
+"
+How far SPF P. vannamei status last long?,"SPF means that the animals have been assured of being free from specific pathogens at the particular point of time. It is a wrong belief that SPF animals are resistant to and cannot become infected by any viral pathogens that shrimp encounter during culture. Once the animals are removed from the SPF production facilities, they can no-longer be referred to as SPF, even though they may remain pathogen free. Once outside the SPF facility, the shrimp may be designated as High Health (HH) as they are now subject to a greater risk of infection, but only if they are placed into a wellestablished facility with a history of disease surveillance and biosecurity protocols. If the shrimp are put anywhere else, for example into a non-biosecure maturation unit, hatchery or farm, they can no longer be called SPF or HH as they are now exposed to a high risk of infection. It was reported that SPF P. vannamei broodstocks are easier to spawn than pond-raised brood stock and their offspring perform better in terms of higher survival rates."
+What are the standard ways for the farmers to check for various Parameters while selecting Shrimp seed?," The shrimp farmers should adopt the following measures to ensure the selection of quality seed.
+1)The hatchery should have registration for P. vannamei seed production and import of brood stock.
+2)Physical stress test: Collect a larval sample (approximately 100 PLs) from the bottom of the identified larval tank put them in a tub and rotates the
+water. If many seeds are concentrating at the center of the tub, reject the animals from this larval tank.
+3)Salinity stress test: Collect about 100 PL in a beaker with animals from a tank having the optimum salinity. Pour equal quantity of freshwater and wait for half an hour. If
+you find any mortality reject the animals from that tank.
+4)Formalin stress test: Collect 100 PL of P. vannamei shrimp seed from the selected tank and put them in 100 ppm formalin water and wait for an hour. If more than 90% of the
+seed survive, select that batch.
+5)The hatchery should have quarantine, adequate bio-security, required infrastructure and follow the standard operating procedures fully.
+6)The seed selected should be from a single spawning and should be from the first or second spawning of the specified mother brooder. Seeds from mixed spawning lead to
+low survival and size variation.
+7)Seed should be PCR screened for known pathogens (WSSV, EMS etc.) before selection.
+8)After selecting the seed lot, it should be gradually acclimatized (2 to 3 salinity in a day) to the pond water salinity. Rapid acclimatization leads to stress and low survival in the farm.
+9) Obtain 100 PL from the selected stock and put in a hapa in the pond and if the lot has a survival of ‰¥ 90% only then should the farmer buy the seed. Otherwise choose another lot and repeat the process until the above condition is met.
+10)Farmers from a shrimp cluster should procure seeds collectively through their association from a reputed and trusted hatchery. They should stay in the hatchery to closely monitor the seed production process. PCR screening of mother brooder before and after spawning would be extremely helpful in preventing diseases."
+Is it possible to differentiate SPF seed vis-Ã -vis seed from a pond-reared brood stock?,It is not possible to differentiate SPF and non-SPF seed by observation.
+"Whether nursery rearing enhances the survival and growth in P. vannamei farming? If so, give the details of nursery rearing?","It was observed that nursery rearing enhances the seed survival up to 95-99% by making the seed healthy and strong. Prepare the pond similar to that for grow out culture pond preparation with scraping, ploughing, liming, water in-letting, chlorination, de-chlorination, plankton production by applying dolomite, fermented juice, required minerals and probiotics. Stock quality P. vannamei PL 10-12 size @ 1000/m2 and feed @ 1kg of starter feed per one lakh PL from the day one. Increase daily feeding rate @200 g per lakh seed. Give feed no.1 for initial 10 days, a combination of feed no.1 and 2 during 10-20 days and after 20 days provide feed no.2 only. Provide aeration for 4 hours in the forenoon and 8 hours from 10.00P.M. It was observed that a growth rate of 2.5 to 3 g is achieved in 25-30 days of nursery rearing. Water quality monitoring for DO, pH, bottom metabolites-ammonia, nitrite and H2 S is very crucial. After 30 days, shift the seed from the nursery to grow-out pond using drag or scoop net."
+What are the reasons for low seed survival in P. vannamei ponds? How can you ensure better/higher survival rate?,"Poor seed quality, poor acclimatization and poor water quality are the reasons for low survival. Select and procure quality seed by strictly following the CAA guidelines and the
+standard protocol. Gradual acclimatization of PL to pond salinity is very important and should be achieved to the level of 1-2 ppt per day at the hatchery itself before packing. Maintain the
+pond water quality parameters within the optimum range."
+How much feed should be given to farmed shrimp?,"The amount of feed given to farmed shrimp can vary depending on several factors, including the species of shrimp, their life stage, environmental conditions, and the specific farming system being used. Feeding practices in shrimp farming aim to provide the necessary nutrients for growth while minimizing waste and environmental impact. Here are some general guidelines:
+
+Juvenile Shrimp: When shrimp are in their early stages (post-larvae and juveniles), they are typically fed multiple times a day with small, frequent feedings. The feed quantity is usually a percentage of their body weight, ranging from 5% to 10% per day. The feed is often in the form of commercial pellets or formulated diets specifically designed for shrimp.
+
+Adult Shrimp: As shrimp grow and reach maturity, the frequency and amount of feeding may be adjusted. In intensive farming systems, adult shrimp are often fed once or twice a day, and the feed amount is typically around 2% to 5% of their total body weight per day. The feed can consist of commercial pellets, formulated diets, or a combination of natural feeds and supplementary feeds.
+
+It's important to note that the feed quantity should be carefully monitored to avoid overfeeding, which can lead to poor water quality, disease outbreaks, and increased production costs. Additionally, the nutritional composition of the feed should be balanced and appropriate for the specific species and life stage of the shrimp being cultured."
+what is the ideal feed composition for shrimp?,"The ideal feed composition for shrimp can vary depending on the species of shrimp, their life stage, and specific farming conditions. However, in general, a well-balanced shrimp feed should contain the following components:
+
+Protein: Shrimp require a high protein diet for growth and development. The protein content in shrimp feed typically ranges from 30% to 45% or higher, depending on the life stage and species. Protein sources commonly used in shrimp feed include fishmeal, soybean meal, poultry meal, and other plant and animal protein ingredients.
+
+Carbohydrates: Carbohydrates provide energy to shrimp. The inclusion of carbohydrates in shrimp feed can help reduce costs and improve feed efficiency. Common carbohydrate sources in shrimp feed include wheat, corn, rice bran, and cassava.
+
+Lipids (Fats and Oils): Shrimp require essential fatty acids for energy, hormone synthesis, and maintaining cellular functions. Fish oil, vegetable oils (such as soybean oil or palm oil), and other lipid sources are included in shrimp feed to provide the necessary fats and oils.
+
+Vitamins and Minerals: Shrimp need a range of vitamins and minerals for various physiological functions. Vitamin and mineral premixes are added to shrimp feed to ensure they receive adequate amounts of essential nutrients.
+
+Additives and Supplements: Some shrimp feeds may contain additives and supplements such as probiotics, prebiotics, immunostimulants, and enzymes. These additives aim to improve feed digestibility, enhance shrimp health, and boost overall performance.
+
+It's important to note that the specific feed composition can vary depending on factors such as the availability of ingredients, nutritional requirements of the shrimp species, and the goals of the farming operation. Shrimp farmers often work closely with feed manufacturers and nutritionists to develop feed formulations that meet the nutritional needs of their specific farming systems and target shrimp species."
+"Is it correct to use high protein feed initially and switch over to low protein feed? If yes, what is the advantage?",It is good to use a high protein feed during the initial 30 DOC (pre-starter & starter) since the PL/early juveniles require more protein (38%) than the juveniles and it gives better growth.
+what is the ideal Feeding frequency to be followed for farned shrimp?,"Here are some guidelines for feeding frequency:\n
+Juvenile Shrimp: In the early stages of shrimp farming, post-larvae and juvenile shrimp are typically fed more frequently to support their rapid growth. Feeding can occur multiple times a day, usually ranging from 3 to 6 feedings. The exact frequency and timing may depend on the specific shrimp species, their size, and the availability of feed.\n
+Adult Shrimp: As shrimp reach maturity, feeding frequency may be reduced, typically to once or twice a day. Feeding once in the morning and once in the late afternoon or evening is a common practice. However, the actual frequency may be adjusted based on the feeding response of the shrimp, water quality parameters, and farming objectives.\n
+It's important to note that the feedings should be spread out over the day, allowing enough time for shrimp to consume the feed and minimizing the risk of overfeeding. Feeding schedules should be consistent and take into account factors such as water temperature, dissolved oxygen levels, and the shrimp's feeding behavior."
+What are the ideal times in a day for feeding in shrimp farming?,"The ideal times for feeding in shrimp farming can vary depending on factors such as the species of shrimp, their life stage, farming system, and local conditions. However, there are a few general guidelines that can be followed:
+Morning Feeding: Feeding shrimp in the morning is a common practice in shrimp farming. The exact timing can vary but is typically done shortly after sunrise. Feeding in the morning allows shrimp to consume the feed and utilize the energy throughout the day.\n
+Late Afternoon/Evening Feeding: Another feeding session can be scheduled in the late afternoon or early evening, a few hours before sunset. This timing allows shrimp to feed and utilize the nutrients during their most active period of the day."
+Is it correct to stop feeding by 7.00 PM? Would not the P. vannamei shrimp starve for feed during night hours?,"Yes. P. Vannamei are diurnal feeders hence need more feeding in the day time and it is always advisable to complete the feeding by 7.00 P.M. Due to high stocking density, the chance of reduction in DO during the night time might result in stress to the animal and affect the feeding which results in less feed consumption and more wastage. This unutilized feed would deteriorate the water quality. Wide feed distribution with multiple feedings also helps in the breakdown of organic wastes by beneficial bacteria and reduces ammonia and prevents water quality problems."
+What is the required quantity of feed to be kept in check tray for feed monitoring at different stages of culture?,"Generally to start with (30 DOC) 4-6 g per kg of feed is kept in check tray for monitoring.
+As the animals grow, the quantity has to be increased slightly and it will reach a maximum level of 8-10 g per kg of feed in the final stages of culture (25-30 g ABW at 100-120 DOC)."
+Why does size variation occur in P. vannamei shrimp? How would you minimize the problem through feed management?,"Seed quality is the major factor for size variation. If the quality of the seed is good and it is well fed with a balanced diet, there is less chance for size variation. Underfeeding may lead to size variation. In this condition the dominant and active shrimp will consume enough quantity and would finish the feed quickly while the sluggish and less active shrimp will not get the required quantity resulting in decreased growth. This issue can be managed to a certain extent by means of gap feeding i.e giving the previous grade feed after one hour of routine feeding and mixing the two different sizes of feed (currently using size and a lesser size). During the course of culture, the increase in body weight should correlate with the feed given and the FCR should be in the expected range. If there is any deviation, then the actual reason has to be explored and rectified. If the growth is disproportional then the pond requires adequate attention."
+Is it correct to adopt feeding after one week of stocking only and how can we determine the feeding rate initially?,"Initial feeding depends on the natural (plankton) productivity of the pond. As P. vannamei larvae are voracious feeders and are fed @ 6-7 times/ day at the hatchery, it is advisable to start feeding from the date of stocking itself."
+What are all the aspects to be kept in mind while adopting the feed dispenser for pond?,"Even though P. vannamei can come to any place for feeding, if it is habituated, it is advisable to keep the feed dispenser at the centre as it facilitates the animals from all sides to come and take the feed. However, the total quantity feed to be fed for the day should be uniformly distributed. The timing between the successive feedings and gap p between the rotations are very important in feed dispensers."
+What time of feeding would be appropriate to mix probiotics/supplements for application?,The first meal of the day should be mixed with probiotics/supplements as the hungry animal would consume it fully.
+How much of nutrients applied through feed are actually converted into biomass?,"Generally aquatic organisms convert 25% of nitrogen and phosphorous and less than 10% of the carbohydrate matter applied in the feed to biomass. The remaining N, P and organic matter enters the pond as faecal matter, uneaten feed, ammonia, phosphate and carbon dioxide. For every kg of feed fed, about 30 g of ammonia will be excreted by shrimp into the pond. Ammonia and phosphate stimulate phytoplankton production and increase the organic matter as phytoplankton continually die and settle at the bottom as organic matter."
+Whether shrimp feed can be evaluated physically? If yes how?,A good quality shrimp feed should have a fishy odour and the feed pellet has to be of uniform size. There should not be any clump formation and musty odour. The bottom of the bag should be free from fine powder.
+"How can we ascertain the nutrient content of the feed used by a farmer?","About 200 g of the feed sample has to be collected and sent to the feed laboratory to evaluate the nutrients viz., protein, fat, fiber, total ash and moisture. If the values are lower than the values given in the feed bag,the feed is of lower quality."
+What is the standard water stability time for P. vannamei shrimp feed?,"Even though P. vannamei is a fast feeder and it will consume the feed quickly, feed should be water stable for a period of 1-2 hours."
+Can we use natural feedstuff like clams to improve the shrimp growth rate?,"No. Since the P. vannamei shrimp is SPF and reared under strict biosecurity protocol, use of live/fresh natural feedstuffs are to be avoided. This will ensure safety to the animal as there is a possibility of introducing disease causing agents through these sources. Moreover, use of natural feedstuffs will lead to deterioration of water quality in the pond."
+How long can the feed be stored?,A properly preserved feed can be stored safely for a period of 60-75 days. However it is always advisable to use freshly processed feed to the extent possible.
+Can we use different brands of feed in a single culture?,"There is no harm in using different brands as long as the quality is good and the shrimp consumes the feed resulting in good FCR. However if you want to change the feed, it has to be done gradually and not abruptly as the animal has to adapt to a particular feed."
+Is there any farm-made feed available for shrimp?,P. vannamei shrimp can be fed with feed prepared at the farm. However the feed has to be prepared scientifically. The details of farm. 
+What is FCR?,"FCR stands for Feed Conversion Ratio, and it is a commonly used metric in shrimp farming (and aquaculture in general) to assess the efficiency of feed utilization by shrimp. The FCR is calculated by dividing the amount of feed given to the shrimp by the weight gain of the shrimp. It indicates how much feed is required to produce a unit of shrimp biomass.
+
+The formula to calculate FCR is as follows:
+
+FCR = Total feed given (in weight) / Total weight gain of shrimp
+
+For example, if a shrimp farm used 1000 kilograms of feed and the shrimp gained a total weight of 500 kilograms, the FCR would be:
+
+FCR = 1000 kg feed / 500 kg weight gain = 2:1
+
+In this case, it means that it took 2 kilograms of feed to produce 1 kilogram of shrimp weight gain."
+What is Ideal FCR in farmed shrimp?,"The ideal Feed Conversion Ratio (FCR) in shrimp farming can vary depending on several factors, including the species of shrimp, farming conditions, feed quality, and management practices. While there is no universally defined ""ideal"" FCR, achieving a lower FCR is generally desirable as it indicates better feed efficiency and reduced feed costs.
+
+In intensive shrimp farming systems, FCRs ranging from 1.2:1 to 2:1 are often considered good or efficient. This means that it takes around 1.2 to 2 kilograms of feed to produce 1 kilogram of shrimp weight gain. However, it's important to note that the achievable FCR can vary depending on the specific circumstances."
+What are the ways to maintain an optimum FCR.,"Techniques to get optimum FCR in shrimp culture are:-
+1)Use high quality Feeds.
+2)Manage water quality.
+3)Control disease.
+4)Optimize stocking density.
+5)Use probiotics.
+6)Feed regularly and appropriately.
+7)Keep shrimp healthy.
+8)Minimize stress.
+9)Preparing the pond throughly.
+10)Should not feed the shrimp too late.
+11)Adjust the food properly."
+What are the factors that lead to substantial improvement in FCR?,"The Factors that can lead to substantial improvement in FCR are:-
+1)Water temperature.
+2)Feeding frequency."
+Why is a good FCR so important?,"1)It measures the efficiency of feed conversion into shrimp biomass.A low FCR means less feed is required to produce a given amount of shrimp, leading to lower production costs.
+2)A good FCR also indicates that the shrimp are growing well and are healthy.Shrimp with a poor FCR tend to be smaller and have poorer health.
+3)A good FCR is also an indicator of water quality.For example, shrimp with a poor FCR tend to excrete more ammonia, which can lead to water quality problems."
+"What are ionized and unionized forms of ammonia and what is their
+significance in P. vannamei shrimp culture?","Ionized forms are the readily absorbable forms of minerals and nutrients by the shrimp. Ammonia is present in two forms, ionized (NH4) which is nontoxic, and the toxic form -unionized ammonia (NH3). The shrimp utilize only ionic forms for their metabolic activity.Unionized ammonia(NH3) has been reported to be more toxic than ionized ammonia (NH4) due to its ability to diffuse across cell membranes.The total of both the ionized and un-ionized forms is the total ammonia nitrogen or TAN. The concentration of these depends on water temperature and pH. Higher the water temperature and pH, the greater the concentration of the toxic form of ammonia (NH3)."
+Whether application of probiotics and minerals are necessary for phytoplankton development? If so what is their actual role?,"Probiotics could help in regulating the micro flora of the pond water, control pathogenic microorganisms, enhance the decomposition of undesirable organic substances and improve the pond environment. Application of plankton promoters
+enhances the availability of nitrates and phosphorus which are important for the planktonic growth. The beneficial bacterial strains inhibit the pathogenic bacteria and help in better survival. In case of low saline water shrimp culture, the pond water has low level of essential minerals like calcium, magnesium, sodium and potassium which might cause stress to the larvae by disturbing the osmo-ionic balance of the shrimp larvae. Beneficial bacteria are helpful in nutrient recycling and organic matter degradation and thus keep the pond environment clean. Therefore, application of probiotics and minerals are essential."
+"Whether the lime applied helps in improving the plankton development
+also? Which lime material the best?","Yes. Finely crushed agricultural limestone is usually the best material to use at pH levels below 8.3. It is cost-effective and readily
+available. Both pond alkalinity and hardness can be increased by adding either CaCO3 (agri-lime) or CaMg(CO3)2 (dolomitic limestone). Both Agri-lime and dolomite are good. Dolomite which is calcium magnesium carbonate promotes plankton growth and helps in photosynthesis of planktons."
+Why does the pH change in P. vannamei ponds?,"Fluctuations in pH are the result of the interplay of photosynthesis and respiration. At night time, respiration increases CO2 concentrations, creating carbonic acid and causing pH to fall.During the day, phytoplanktons absorb CO2 for photosynthesis, causing pH to rise.Large daily changes in pH can stress aquatic animals. Most aquaculture species can live in a broad range of alkalinity concentrations, but the desired alkalinity for many animals is 50 mg/L or higher.Liming to raise total alkalinity to the required or preferred range buffers the water and reduces fluctuations in pH."
+"What are the optimal water quality parameters? How can we correct (low/high) them during
+fluctuation?","To address optimal water quality parameters and how to correct them during fluctuations, it's important to consider that specific water quality requirements vary depending on the aquatic organisms being cultured or the specific purpose of the water system. However, I can provide some general guidance on this topic:
+Optimal Water Quality Parameters:
+Temperature: The optimal temperature depends on the species being cultured. It's crucial to maintain the recommended temperature range for optimal growth and health.
+pH: Different organisms have specific pH requirements. It's important to maintain pH within the recommended range to ensure physiological functions.
+Dissolved Oxygen (DO): Adequate DO levels are essential for the survival and growth of aquatic organisms. Maintain DO within the appropriate range based on the species' requirements.
+Ammonia (NH3/NH4+): Ammonia is toxic to aquatic organisms. Monitor and control ammonia levels within acceptable limits.
+Nitrite (NO2-): Nitrite is another toxic compound. Keep nitrite levels low to ensure the well-being of aquatic species.
+Salinity: Salinity requirements vary depending on the species. Maintain salinity levels within the recommended range for the specific organisms.
+Turbidity: Turbidity refers to water clarity. Ensure that water is clear and not excessively turbid.
+Correcting Water Quality Fluctuations:
+Temperature: Use appropriate heating or cooling mechanisms to adjust water temperature within the desired range.
+pH: Add pH-adjusting substances (pH increasers or decreasers) to bring the pH back to the desired level.
+Dissolved Oxygen: Increase aeration or adjust water flow to enhance oxygenation. Oxygen diffusers or air stones can be used.
+Ammonia/Nitrite: Implement proper filtration systems, conduct partial water changes, or use nitrifying bacteria to convert toxic compounds.
+Salinity: Adjust salinity by adding or removing saltwater, freshwater, or using specialized equipment like a reverse osmosis system.
+Turbidity: Implement appropriate filtration systems or settling tanks to remove suspended particles."
+"On what basis should a farmer decide the dosage and frequency
+of minerals application during culture?","Shrimp pond water should have mineral nutrients viz. calcium, magnesium and potassium in the ratio of 1:3:1 with a minimum of 200 ppm calcium. In full strength sea water, Na: K ratio is 28:1.It is observed that lowering the Na: K ratio by increasing the K concentration enhances the survival and growth of shrimp. The farmer should check the mineral concentration at weekly intervals and carry out the necessary measures if the levels are low."
+"What is the basis to decide the duration of aeration required for P. vannamei shrimp at
+different DOC?","Adequate DO is required for the higher rate of organic matter decomposition by aerobic microorganisms, support ammonia oxidation by denitrifying bacteria, maintain aerobic conditions at the sediment-water interface and better feed utilization. Aerators are required for optimizing the dissolved oxygen and circulation of the pond water. A general guideline for aeration duration is given in the Table.
+Day of Culture           Duration
+Upto to 30 DOC         4-6 hours
+30-60 DOC             6-8 hours
+60-90 DOC             8-12 hours
+Above 90 DOC          12-16 hours
+After 30 DOC aerators should be added @ 1 hp per 300-400 kg of biomass. Aerators are operated 6-8 hours mostly during night hours initially and increased gradually to 10-12 hours during mid phase and 14-16 hours per day during the final phase."
+Which type of aerators should be used for better results?,Several studies reported that paddle-wheel aerators or long arm paddle wheel aerators are efficient in providing aeration and irculation of water. It is also reported that long arm and spiral aerators can circulate oxygen to the pond bottom and are more efficient. The aerators should have a rotation per minute (RPM) of 90-120. It is expressed by the farmers that combining long arm paddle wheel and spiral aerators provided better efficiency in terms of circulation and dissolved oxygen levels. Air diffusers (blowers) are also used for providing aeration to ponds by placing circular aeration stones. It was reported that 1 HP air diffuser is equal to 3 HP aerators and is felt that air blowers along with minimum aerators could provide better performance as it minimises the number of aerators and cost of electricity
+How can we position the aerators for better performance?,"Aerators are to be placed in such a way that entire pond water is circulated in a circular motion sweeping all the waste material to
+the central part of the pond. Some farms adopted sludge pumps or central drainage system to suck the sludge deposited in the centre of the pond. Positioning of paddle wheel aerators diagonally at four corners and long arm paddle wheel /paddle wheel cum spiral aerators in the middle level position respectively helps in water circulation and increasing the aeration. The aerators should be placed 4-5 meter distance from the dykes to prevent erosion."
+What is total alkalinity and how does it differ from hardness?,"Alkalinity (the concentration of carbonates, bicarbonates and hydroxyl ions in water) is a measure of the buffering capacity of water to resist change in pH. Hardness is often defined as the sum of polyvalent cat-ion concentrations dissolved in the water. The most common polyvalent cat-ions in fresh water are calcium (Ca++) and magnesium (Mg++). Alkalinity is important for pH optimization and it is essential for plankton development, metabolic activity of the shrimp and affects bottom metabolites. Optimum alkalinity has direct relationship with animal growth and survival. Hardness is the overall concentration of divalent salts (calcium, magnesium, iron, etc.)"
+"Whether P. vannamei shrimp needs micro nutrients too? If yes, what are they?","The enriched trace minerals/micronutrients have a significant impact on immune functions,disease resistance, and stress release of shrimp/ fish. The micro-elements are important components of hormones and enzymes, and serve as cofactors and/or activators of a variety of enzymes. The quantum of their requirement is relatively low and the requirement is taken care through the feeds. Hence, farmers need not apply trace elements separately."
+What is the weekly growth rate for P. vannamei and what should be done in case of stunted growth?,"A weekly growth rate of 1.3-1.6 g is optimum for P. vannamei and it depends on the seed quality, water quality and feeding efficiency. If the water quality is optimum and growth is not proportional to feed provided, then feeding behavior needs to be checked. Giving one or two doses of feed probiotic could be beneficial and if it is not improving the growth rate then harvesting would be the right choice."
+"What are water soluble and insoluble forms of minerals in P. vannamei culture? Explain in
+simple terms.","The water soluble fraction of minerals is the bio-available form which is readily available to the shrimp. This bio-available form of minerals from most of the commercial mineral mixtures is very low and it is advisable to test the compounds before application."
+Why are minerals so important for P. vannamei shrimp alone vis-Ã -vis tiger shrimp?,"Minerals are important for both tiger and P. vannamei shrimps. Since P. vannamei is cultured in low saline waters which have a relatively low amount of minerals vis-Ã -vis brackish/saline waters, external supplementation mineral is required only for low saline waters."
+"What are the important roles of minerals in P. vannamei farming? What is the optimum
+requirement level of essential minerals? ","1)Minerals are essential constituents of skeletal structures such as bones and teeth.
+2)Minerals play a key role in the maintenance of osmotic pressure, and thus regulate
+  the exchange of water and solutes within the animal body.
+3)Minerals serve as structural constituents of soft tissues.
+4)Minerals are essential for the transmission of nerve impulses and muscle contraction.
+5)Minerals play a vital role in the acid-base equilibrium of the body thereby regulating
+  the pH of the blood and other body fluids.
+6)Minerals serve as essential components of many enzymes, vitamins, hormones, and
+  respiratory pigments, or as cofactors in metabolism, catalysts and enzyme activators.
+Mineral Name      Recommended level in water and feed
+Calcium           Above 150-200 mg/L in water ; 1.25 to 2% (max) in feed
+Magnesium        300-400 mg/L in water and 0.2% in feed.
+Potassium        150-200 mg/L in water and 0.5 to 1% in feed
+Sodium           0.5% in feed
+Phosphorous      1 to 1.5% in feed
+Chlorine          Depends on the salinity of the water"
+"How do the open and ground waters from the coastal and inland areas differ in mineral
+composition?","Mineral composition in open source waters from coastal areas is mainly dependent on water salinity. For example, Ca, Mg and Na are more in saline waters compared to low saline waters. The composition of underground bore-well waters depends on the location of the bore well and the depth from which water is extracted. For example, bore wells in coastal areas are fresh/low saline to high saline in nature. Recently shrimp farming has spread to inland saline arid and semi-arid regions of the country viz., Haryana and Rajasthan with the use of ground water.These waters are deficient in K and Mg unlike coastal ground waters."
+"Whether water source has a role in the availability of minerals like bore water, creek water,sea water etc?","Yes. The sea/brackishwater has adequate quantity of minerals. In case of low saline waters, they are relatively low in amount, hence require external supplementation. The minerals in the pond water have certain key functions and contribute for the survival and growth. Among the minerals, calcium, magnesium and potassium are important for P. vannamei shrimp. The P. vannamei require calcium, magnesium and potassium in a ratio of 1:3:1 which is the ratio in sea water. We have to maintain this ratio in the low saline waters by adding the minerals externally.The minimum requirements of these minerals at 1 ppt salinity are given below and we need to multiply with the pond salinity."
+On what basis one should apply mineral nutrients in P. vannamei pond?,"Shrimp farmers need to test their shrimp pond water once in 10-15 days for their mineral profile and if required, they should apply minerals in an appropriate form based on the composition of the mineral salt. Mineral nutrients are to be supplemented only when there is a deficiency. "
+Do brackishwater ponds require mineral supplementation?,"Test the brackishwater pond water for minerals and if required only, one should add minerals. Normally brackishwater has enough amounts of minerals and may not require mineral supplementation."
+Do you think that the mineral composition changes as per the salinity?,Yes. The mineral composition changes as per the source water. Generally the sea water and brackishwater bodies have adequate amount of required minerals in required proportion (ratios).The inland waters do not have the required level of minerals in right roportions.
+Do you feel that pond age has any influence on the availability of minerals?,Not confirmed. The investigations are in progress to test this hypothesis.
+"What are the important soil parameters which indicate the deteriorating conditions of the
+pond bottom?","Farmers can test the shrimp pond bottom condition without any laboratory analysis. The bottom soil can be scooped and tested for any bad smell. If there is a smell of a rotten egg, it indicates the bad condition of the soil having hydrogen sulphide. Technically the redox-potential of the soil can be measured on site which gives an indication of oxidation/reduction condition of soil. Organic carbon content of the soil can be estimated in the laboratory for the quantification of organic load accumulation on the pond bottom."
+What kind of symptoms do shrimp show which indicate mineral deficiency?,"The common symptoms of mineral deficiency are anorexia, reduced vigour, poor feed intake, shrimp body cramp/bend, at the place of cramp the muscle becomes white and juveniles are more susceptible to ratio differences between the important minerals (Na, K, Ca & Mg). Mineral deficiency in the form of either presence of lesser amount or not in correct proportion might hamper osmo-ionic regulations and metabolic activities. The shrimp will be under stress, low feed intake, water quality deterioration and prone to manifestation of diseases."
+Is high turbidity in pond waters harmful to shrimp?,Turbidity in pond waters is generally caused by the planktonic organisms and silt particles. The planktonic turbidity is good to shrimps. The turbidity due to suspended silt particles is harmful and undesirable for a healthy pond. Proper drying of pond bottom after the harvest with recommended pond preparation practices including the strengthening of dykes and provision of optimum aeration minimizes the eroding of soil particles and reduced turbidity.
+"Whether pH and minerals are associated? At what pH are the essential minerals available
+at a maximum level?","The mineral composition and pH are related. At neutral to slightly alkaline pH (between 7 to 7.5) the availability of P, Ca, K and Mg is maximum and functions of the mineral nutrients are also adequate. The micro nutrients whose requirements are very small are also available at a higher pH though their availability is more at low pH."
+Whether water temperature has any role in the availability and functions of essential minerals?,The optimum temperature for P. vannamei is 280 C to 320 C. Continued high or lower temperature vis-à-vis the optimum level negatively affects the metabolic activity of the shrimp and their growth is disturbed. Higher temperature increases the salinity of the water evaporation of pond water and thus indirectly increases the mineral composition
+"Whether the P. vannamei require same ratio of essential minerals from post larvae to adult?
+Or at what stages do it requires more/less?",P. vannamei require same ratio of essential minerals from post larvae to adult.
+"Whether shrimp feed contains the required level of mineral nutrients which is essential for metabolic and physiological activity of the shrimp?
+","Normally, a balanced shrimp feed has the required level of minerals for the metabolic activity of shrimp. Brackishwater and high saline waters have the required minerals at optimum levels, hence additional supplementation of minerals is not required. However, in case of low saline waters, additional mineral supplementation is required to raise the levels at par with the mineral composition of shrimp. Otherwise, due to osmotic pressure, the minerals and ions from the shrimp move to the water and the animal will be under stress. The stressed shrimp cannot feed properly. The uneaten feed as a waste reaches the bottom and increases the bottom metabolites.Therefore, supplementation of minerals in low saline waters is necessary mainly to keep the rearing medium at par in mineral levels to that of shrimp."
+"What is the osmo-ionic regulation in P. vannamei? Whether external supplementation of
+mineral is required?","The shrimp lives in oceanic waters which has the optimum level of required minerals. The minerals calcium, magnesium, potassium, phosphorous,chlorine, sulphur and trace elements are essential for its exoskeleton and energy metabolism. Even though the mineral ions enter and exit through body exoskeleton and gills, the animal and the living medium are having equal concentration of minerals, the ionic composition will not change. If the rearing medium is having lower proportion of required minerals then external application of minerals is required (especially in low saline soils)."
+Whether minerals in soil are as such available in water phase and available for shrimp?,"All the portions of minerals present in the soil are not bio-available. When the water is added to soil, only the water soluble portion of the particular mineral is bio-available although the total quantity of mineral is quite high. This availability may vary based on the soil characteristics also."
+"Whether DO level is same in all the places at different depths of the P. vannamei pond?
+While measuring DO which is the correct way for measuring the DO of the pond?",Dissolved Oxygen levels may vary at the surface level in the dead corners where the water circulation is not effective. As the depth increases the level of DO might be gradually decreasing.Water bottles for DO measurement are available and the water should be drawn at least two feet below surface level.
+"When ground water is used for topping up of shrimp pond water what parameters need to
+be checked?","The mineral composition, alkalinity, hardness and iron content of the ground water are to be checked before its use. However, as per the CAA guidelines, ground water should not be used for shrimp culture."
+"When should a farmer apply gypsum salt? When should dolomite be preferred instead of
+agri-lime?","If the alkalinity level is more than 50 ppm, calcium carbonate, application of agri-lime to increase the water hardness to the optimum level will not work. Under this condition, application of Gypsum (CaSO4·2H2O) should be preferred. For one ha of shrimp pond, 19kg of gypsum can enhance 1 ppm calcium carbonate.
+"
+"When the rapid fluctuation in temperature/diurnal variation is high what are the parameters
+need to be checked?",The term diurnal more often refers to the change of temperature from the daytime high to the night time low. The important parameters to be measured are total available nitrogen and pH which are correlated with temperature.
+How does sudden heavy rain fall affect the pond condition and what needs to be done?,"During heavy rainfall, the pond water becomes acidic and the pH goes down and the plankton crashes. Therefore, lime has to be
+applied to enhance the pH and plankton production. During heavy rain, the shrimp may be under stress due to low temperature and
+change in salinity. Therefore, feeding should be checked based on the check tray and behaviour of shrimp in the pond."
+Whether aeration helps in ammonia management in the pond water?,"Yes. Aeration keeps the water in motion and increases the dissolved oxygen in the pond water. Aeration may help in immobilization of ammonia and its release from the pond due to the circulation of pond water. The aerators stimulate bacterial growth and activity which consequently maintain the quality of water. Placement of aerators in the corners allows for solid accumulation in the centre of the pond, which can then be removed if a centre drain is used or will facilitate solids removal during pond drying time. Additional aerators can be placed in the middle of the pond length providing for additional oxygenation and circulation."
+"6. Some technicians opine that ammonia upto a certain level is required for shrimp growth.
+Is it true? Please give explanation.","No. The technicians might have opined that nitrogen from ammonia may be useful for the growth of beneficial bacteria and phytoplankton growth. It is actually the ammoniacal form of N (NH4 ) which is essential for this purpose. However, ammonia beyond permissible limit is toxic to the shrimp and at low level could affect the growth of shrimp."
+"How far are water quality testing kits in the market accurate?
+","Water quality test kits cannot be 100% accurate like laboratory results. However, ± 5% deviation is allowed for field measurement to
+take immediate management measures."
+"Farmers started using chemical fertilizers like Ammonium chloride/Ammonium sulphate,
+DAP, MOP etc. for water culture in P. vannamei farming? Is it necessary?","Application of fertilizers is mostly done in low saline P. vannamei culture. Nitrogenous fertilizers like Ammonium chloride/Ammonium
+sulphate are being applied to provide nitrogen for better phytoplankton production. The compound fertilizers like Di-ammonium phosphate (DAP) will provide both nitrogen and phosphorous required for the bloom development. The Murate of Potash (MOP) might be applied as a mineral nutrient to enhance the potassium content in the low saline waters."
+"What should be the optimal diurnal DO variation expected? What does it indicate if it is
+too high or too low and what measures need to be taken to correct the same?","Diurnal variation in DO should not be too high or too low. A diurnal variation of 3 to 4 ppm is fine. If the variation is too high, then it indicates over bloom and if it is too low it shows low bloom.Accordingly, if it is high bloom carry out 10-20%water exchange. Incase low bloom, apply a dose of fermented juice or dolomite @ 40 kg/ha."
+Whether shrimp pond water pH varies diurnally? If so what needs to be done?,"The pH should be monitored before dawn for the low level and in the afternoon for high level. The magnitude of diurnal fluctuation is dependent upon the density of organisms producing and consuming CO2 and on the buffering capacity of pond water (greater buffer capacity at higher alkalinity). i.e., diurnal fluctuation of pH is not great in pond water of higher alkalinity.An alkalinity above 50 ppm CaCO3 is preferred in prawn/shrimp ponds. Intervention, such as flushing of ponds to reduce the pH, is advisable when the magnitude of diurnal fluctuation in pH is great. Nevertheless, one should notice that the drastic fluctuation of pH would cause stress
+to culture organisms. Normally, it should maintain the daily fluctuation within a range of 0.5 difference. Control of pH is essential for minimizing ammonia and H2S toxicity."
+"Whether application of jaggery for pH reduction, garlic for gut digestibility etc. really works?","It has been observed that farmers based on their Indigenous Technical Knowledge (ITK) do use jaggery which helps in reducing pH as it creates fermented condition in the pond, turmeric powder for disinfection and garlic paste for enhancing gut digestibility. It seems they are facilitating the purpose for which they are applied."
+What are all the management measures required to keep the pond bottom clean and prevent its deterioration?,"Maintenance of bloom and optimum feed management are the key factors to keep the pond bottom clean. In order to prevent
+the deterioration of pond bottom, chain dragging is recommended from the beginning of the crop after 15 DOC It is advisable not to
+practice chain dragging after 60 DOC as it will create more harm."
+Whether PCR screening protocol is available for diseases other than WSSV? Whether screening for WSSV is necessary for P. vannamei also?,"Yes, PCR test is available for IHHNV, MBV, HPV, TSV, YHV (Viruses), EHP and for many of the vibrios, particularly for the EMS caused by V. parahaemolyticus. Screening of P. vannamei for WSSV is necessary as non-SPF pond reared broodstocks could have been used for seed production."
+What are all the morphological parameters/features a farmer should look to assess the health of P. vannamei shrimp?,"Farmers should always monitor the color, activity, swimming pattern, appendages, gill, gut and hepatopancreas of the shrimp.
+If there is an antenna cut, bacterial infection is suspected. Color change or pinkish coloration will indicate WSSV/ bacterial
+infection. Gill choking is expected if too much plankton is there in the pond. Status of gut and hepatopancreas should be seen, if
+they are white in color and empty, then EMS or bacterial infection is suspected."
+"Running mortality occurs after 60 DOC in culture systems on a daily basis, what could be
+the cause for this and how can we control this?",As of now it appears that RMS is due to high stocking density and inadequate pond preparation.Select healthy post larvae by carefully adopting the suggested screening procedures. It is preferable to stock P. vannamei in low density and give sufficient gap (3-4 weeks) between two cultures.
+"What is the reason for white muscle formation in P. vannamei? How
+can it be prevented and managed after its outbreak?","Any kind of stress, including DO problem can produce white muscle in P. vannamei. The shrimp should be examined further to know the cause and accordingly suggestions should be given."
+What are green and yellow colonies of Vibrio and what is the limit in P. vannamei farm?,"Green and yellow colonies are based on sucrose fermentation that is present in media. Green colonies cannot ferment sucrose. In general, it is thought that green colonies are pathogens. However, yellow colonies can also be pathogens. If the number of colonies is less than 100 per ml, it would be good."
+"What is Early Mortality Syndrome (EMS/AHPND), what are
+its symptoms? How to prevent/manage this?","In EMS, nearing 100% mortality occurs within 30-40 days of stocking. There will be white gut and HP size will also be very small
+and when pressed between the fingers, it will feel rubbery. EMS comes through larvae or brood stock. If EMS is already there in an area, it can also get transferred through water. Larvae should be tested (both PCR and stress test) and pond should be well prepared. During infection, feed management should be done very carefully. Use of probiotics also helps to a great extent. So far, EMS has not been reported in India. Many other bacterial infections might also have majority of these symptoms.
+"
+"What is EHP? Will it infect P. vannamei shrimp? If so, what are its symptoms? What
+measures can be undertaken to prevent/manage the entry and spread of EHP?","The full name of EHP is Enterocytozoon hepatopenaei. It is a spore forming unicellular parasite and belongs to a group called microsporidea. EHP is found to infect shrimps and recent survey by ICAR-CIBA confirmed the presence of EHP in the shrimp farms of India. EHP is not characterized by any specific clinical signs. Though EHP does not cause mortality, it severely damages Hepatopancreas (HP) and shrimp gut, causing severe growth retardation. EHP can also get associated with white faeces
+syndrome, EMS and WSSV etc.The disease is spread through the oral route when shrimps eat infected animals. So far EHP has been detected only from polycheats other than the shrimps. If the brooders are infected this can be transmitted through the larvae.EHP spores are thick and difficult to destroy even with higher chlorine concentration.The best way is to prevent the entry of EHP into the system.The following measures need to be adopted for the prevention of EHP pathogen in to the shrimp farm.
+ A systematic pond preparation is very essential particularly when the previous crop is infected with EHP. Adequate drying of the pond for 4-5 weeks and apply CaO (lime) @ 6 tons/ha.Plough the pond for the lime to penetrate dip into pond bottom (1 foot or more). Moisten the lime for activation. Leave it for one week.
+ PCR test is the most suitable and sensitive method for detection of EHP. PCR screening of the seed for presence of EHP is absolutely essential.
+>Maintain strict biosecurity to prevent unwanted animals into the farm because the range of carriers for EHP is still unknown."
+SPF P. vannamei is free from how many pathogens? What are they?,"It depends from which companies you are getting the SPF and there is no limit to it. Presently a certificate for 7 pathogens is sought from the SPF broodstocks supplier (WSSV, IHHNV, TSV, IMNV, YHV, LSNV and EHP)."
+"Is it possible to enhance the immunity of P. vannamei shrimp through use of immune
+stimulants? If yes, suggest what needs to checked in such products?","Is it possible to enhance the immunity of P. vannamei shrimp through use of immune stimulants? If yes, suggest what needs to checked in such products?"
+"Is the Running Mortality (RMS) and water quality parameters related? If yes, how?","RMS starts after 45 days and till about 90 DOC there will be partial mortality in each day. RMS is directly related with ammonia, turbidity and nitrite. Temperature also has an influence on RMS to some extent."
+"How to keep/ preserve an abnormal shrimp for sending the same for analysis/screening?
+",Keep the animals in alcohol for PCR testing. Live moribund shrimps will be a good sample.
+"Is partial harvesting in P. vannamei farming essential? If so at what stage it has to be done
+and what gear should be used?","The biomass of the P. vannamei pond after 70 days of stocking is relatively high and maintenance of water quality parameters and feed management are very important. In order to minimize the risk, farmers can do partial harvesting upto 20-30% of the stock using drag net so that the load of the pond gets optimized. At 70 DOC the shrimp could have grown to 12-14 g size and they may fetch good price at the local market and by this, the farmer sometimes might get his break even. Similarly, one more partial harvesting at 90 DOC with 15-18 gm size shrimps again might help in better farm management. This approach may help the farmer to avoid market price crash during the time of final harvest (June-July syndrome). Therefore, partial harvesting of shrimp helps in maintaining the optimum pond carrying capacity and minimizes the risks."
+How P. vannamei farming in inland/low saline areas are regulated? Does this need to be registered?,"The Govt. of India has notified that farmers who desired to culture P. vannamei outside the jurisdiction of CAA having the water salinity of above 0.5 ppt shall get registered with the Department of Fisheries (DoF) of the state government concerned. The farms should possess all the required infrastructure and biosecurity. The DoF may constitute a separate district level committee to inspect and give registration to the farms within a reasonable time frame of 60 days and other guidelines are same as that of brackishwater area. However, farms within the jurisdiction of CAA (up to 2 km from the high tide line) should get registered with the CAA only."
+"What is crop holiday? How it help? As such, does a shrimp pond require a holiday once in
+few/some years even otherwise also?",Leaving the shrimp pond without culture for a specified period is called crop holiday. It is generally declared whenever new emerging diseases appear on a large scale. It also helps in total eradication of pathogens or their hosts present in the pond sediments.
+What are periphyton and its significance in P. vannamei farming?,"Use of submerged substrates like agriculture shade nets or dry wooden planks, which serve for the promotion of growth of mixed microalgae-bacteria mats (Periphyton). The Periphyton utilizes the dissolved waste products within the culture system by autotrophic bacteria and algae or through direct heterotrophic conversion of organic and inorganic nitrogen species into microbial biomass which improves water quality and at the same time, the microbial biomass becomes an important direct or indirect source of natural feed for the farmed organisms."
+What are the responsibilities and do’s and don’ts of a P. vannamei farmer?,Farmers should get registration from the CAA/DoF for the culture of P. vannamei. The farms should have adequate biosecurity measures and infrastructure to culture P. vannamei shrimp. Farmers should procure seed from the registered hatchery after screening for pathogens and restrict the stocking density as per the CAA guidelines. The farmer should adopt better management practices of farming and send the periodical reports to the CAA.Farmers should not carry out farming without registration and should not procure seed from a non-registered hatchery.
+"When or at what level of intensification, plastic lining of P. vannamei pond is necessary?
+What are its advantages?","Plastic lining of P. vannamei shrimp ponds is necessary in case of super intensive systems with very high stocking density
+of 250-300 PL/m2 with biofloc technology and other high energy inputs. Also, pond lining can be done if a farmer wants to culture three or more crops in a year and the bottom lining can be cleaned using pressure pumps before starting the next culture. It helps in preventing soil erosion of bunds/dykes due to the use of more aerators continuously. Nevertheless, CAA has permitted a stocking density to the maximum of 60 PL/m2 and for this, density lining is not required. However,farmers may use lining for dykes to prevent erosion."
+What are the food safety measures a farmer needs to adopt in P. vannamei farming?,"Cleanliness and hygiene of farm workers and basic amenities for them are essential. Wild/pet animals should not be allowed
+entry into the farm. Chill killing of shrimp immediately after harvest and proper handling of harvested shrimp are required
+to maintain the quality. Farmed shrimp should be free from antibiotics, banned feed additives and should not have any
+discoloration or bad odor."
+"What are all the aspects that need to be recorded for record
+keeping? Is it mandatory for marketing?","Record keeping is a good practice to record all the operations pond wise, quantity of inputs applied at each stage, seed stocking
+density, feeding - schedule, quantity, timing, sampling details, ABW,probiotics and minerals applied, water quality measurements and their reports which are very essential to take appropriate decisions as and when required. Record keeping is one of the BMPs and it is essential for certification of farmed shrimps."
+Is it necessary to take CAA registration for starting the P. vannamei farming? ,Yes. The farmers interested to farm P. vannamei need to avail an exclusive registration even though they have already availed Coastal Aquaculture Authority (CAA) registration for the farming of tiger shrimp (P. monodon). 
+What is the procedure for obtaining license for P. vannamei farming?,"Farmers who have already have a CAA registration for tiger shrimp farming should send a request letter along with copy of the earlier registration to the CAA. In case of small farms up to 2 ha, the CAA would send this request to the concerned District Level Committee (DLC) of the Department of Fisheries (DoF) of the concerned State for inspection of the facility for the infrastructure and biosecurity requirements. Based on the recommendations of the DLC and SLC (State Level Committee) the registration for farming of P. vannamei will be issued to the concerned farmer. "
+"Is it possible to do P. vannamei culture along with other indigenous shrimp species as mixed culture?
+",No. As per the CAA regulations/guidelines mixed culture of P. vannamei with other shrimp species is not permitted.
+Can P. vannamei be cultured together with other indigenous shrimp species in a mixed culture?,"Yes, it is possible to culture P. vannamei along with other indigenous shrimp species in a mixed culture. However, several factors need to be considered, such as the compatibility of the species, their growth rates, feeding habits, and environmental requirements."
+Is it feasible to raise P. vannamei and indigenous shrimp species together in the same culture system?,"Feasibility depends on various factors, including the specific species involved, their physiological compatibility, and the management practices employed. Proper planning, monitoring, and addressing the unique requirements of each species can make it feasible to raise P. vannamei and indigenous shrimp species together in a mixed culture system"
+What are the potential benefits and drawbacks of combining P. vannamei and indigenous shrimp species in a mixed culture?,"Combining P. vannamei and indigenous shrimp species in a mixed culture can offer benefits such as diversification of production, efficient resource utilization, and enhanced disease resistance through species interactions. However, drawbacks may include the need for careful species selection, potential competition for resources, and the need for tailored management practices to optimize growth and mitigate potential issues."
+Are there any challenges or considerations when practicing mixed culture of P. vannamei and indigenous shrimp species?,"There are several challenges and considerations when practicing mixed culture of P. vannamei and indigenous shrimp species. These may include differences in growth rates, feeding preferences, disease susceptibility, and competition for resources. Proper species selection, monitoring, and management strategies are necessary to address these challenges"
+Has there been any successful implementation of P. vannamei culture alongside indigenous shrimp species in a mixed culture?,"Yes, successful implementations of P. vannamei culture alongside indigenous shrimp species in a mixed culture have been reported. These success stories often involve careful species selection, appropriate culture system design, and effective management practices. However, the specific outcomes can vary depending on local conditions, species combinations, and the expertise of the farmers."
+"Is it possible to do P. vannamei culture in the tide fed traditional ponds, Pokkali fields, etc.,","As per the CAA farming of P. vannamei shrimp require strict biosecurity measures like disinfection of source water, filtrations, fencing (crab,men,bird) and disinfection protocol for labour and implements. Considering the limitations with the tide fed ponds and pokkali fields it is not possible to take up P. vannamei farming."
+"Which is the ideal season for P. vannamei Culture?
+",Shrimp farming is being carried out in two seasons in India. The first season is between February/March to June/July. The second season is between August/September to November/ December.
+From where we can source P. vannamei seeds?,The CAA has permitted 180 shrimp hatcheries for import of SPF broodstock and seed production and supply of P. vannamei. This list is available in the website of CAA (www.caa.gov.in) and shrimp farmers should procure seeds only from the registered hatcheries following due quality screening procedures.
+"Is it possible to do P. vannamei culture in fresh water resources such as artificial ponds,
+tanks, etc? What is the package of practice for culture in fresh water systems? 
+","P. vannamei shrimp is tolerant to low salinities but the rearing water should have a salinity of more than 0.5 ppt. The Govt. of India has notified that farmers who desired to culture P. vannamei outside the jurisdiction of CAA having the water salinity of above 0.5 ppt shall get registered with the Department of Fisheries (DoF) of the state government concerned. The farms should possess all the required infrastructure and biosecurity. The DoF may constitute a separate district level committee to inspect and give registration to the farms within a reasonable time frame of 60 days and other guidelines are same as that of brackishwater area.
+P. vannamei farming in Low saline waters requires two critical practices to be adopted as below and remaining practices are more or less same as that of brackishwater.
+Acclimatization of shrimp seed to the pond conditions should be done gradually not suddenly.It is better to stock larger PL (above 15 PL) which has the capacity to acclimatize to low saline waters.
+The mineral composition of the rearing water should be maintained at an optimal level throughout the culture period. P. vannamei shrimp requires essential minerals viz., calcium,magnesium and potassium in the ratio of 1:3:1. The minimum requirement of calcium is 150-200 ppm. In 1 ppt salinity the required level of essential minerals should be @ calcium-11.6mg/L; magnesium-39 mg/L and potassium-10.7 mg/L. According to the pond salinity this value can be multiplied and the required level of minerals in proportion should be maintained always for the better survival and growth of P. vannamei shrimps. "
+"Is it possible to insure P. vannamei culture farms? What is the procedure for insuring the
+P. vannamei culture farms?","An insurance scheme for shrimp culture is available with the National Insurance Companies of India. However, crop insurance is not popular among shrimp farmers due to the following reasons.
+Insurance companies are reluctant to insure shrimp farms for disease outbreaks.
+They take in to account only the inputs costs not the actual biomass exist during the mishap.
+The premium is relatively high. "
+Is there any government schemes or subsidies exist for doing P. vannamei culture?,"The Marine Products Export Development Authority (MPEDA; www.mpeda.com), The National Fisheries Development Board (NFDB; www.nfdb.gov.in) and the DoFs of respective states do have shrimp farming development schemes for construction of new ponds, renovation of existing ponds, one time first-year inputs for fish/prawn culture and farm infrastructure development etc."
+"In a nut shell, what are all the infrastructure requirements and the salient management
+practices to be followed for P. vannamei farming?","Adequate farm Biosecurity, deep ponds, central drainage/sledge removal capacity, waste water pond, continuous electricity and exclusive permission from the Coastal Aquaculture Authority are essential requirements for P. vannamei farming.
+Prepare the culture pond by adequate drying, scraping, ploughing, liming, strengthening of bunds and dykes. In case of white spot disease incidence in the previous crop, drying of soil for a minimum of 21-30 days is essential.
+Adopt filter screens to prevent the entry of vectors, disinfection with 20 ppm chlorine and allow ageing of water for 12-14 days to eliminate free living viral pathogens.
+Apply carbon source for development of adequate phytoplankton and beneficial bacteria.
+Select SPF P. vannamei seed from a registered shrimp hatchery after adequate screening for presence of pathogens. Above PL12 is the optimum size for stocking.
+Acclimatization of seed helps in better survival. Stock optimum density based on the pond carrying capacity, existing infrastructure and biosecurity. Moderate stocking minimizes the risks.
+Always Maintain dissolved oxygen level at above 4ppm. Artificial aeration is important to maintain the dissolved oxygen levels. Keep1HP aerator for every 300 kg biomass.
+Continue to maintain mineral nutrients at optimum levels (Ca & Mg at 1:3 ratio and Na & K at 28:1 ratio) based on periodic water quality tests.
+Maintain the pond water quality with total alkalinity between 50-150 ppm and hardness between 75 - 200 ppm. The safe levels for the metabolites are: Total Ammonia Nitrogen:<1ppm, Nitrite nitrogen: <0.5ppm and Hydrogen sulphide: < 0.03 ppm.
+Optimize feeding regime by careful monitoring of check trays and shrimp biomass.
+Avoid feeding after 7.00 PM. Stop feeding when shrimp are in stress and the gut is half or empty. Adopt automatic feeders for better FCR.
+Monitor the health of shrimp by observing its behaviour, feed intake, gut, hepatopancreas, appendages, gills, body discoloration and patches. Contact scientists/consultants for technical advice in case of abnormality.
+Partial harvesting helps in maintaining the pond carrying capacity and minimize risks.
+Chill kill the shrimp immediately after the harvest to maintain the quality."
+"What is P. vannamei?""","P. vannamei, also known as the whiteleg shrimp or Pacific white shrimp, is a species of shrimp that is widely cultured for commercial purposes. It is native to the eastern Pacific Ocean, specifically from Mexico to northern Peru."
+What are the main advantages of P. vannamei over P. monodon?,"The main advantages of P. vannamei over P. monodon include disease resistance, fast growth rate, tolerance to varied water conditions, feed efficiency, and market demand and price."
+How does P. vannamei compare to P. monodon in terms of disease resistance?,"P. vannamei has shown better resistance to various viral diseases, such as white spot syndrome virus (WSSV) and infectious myonecrosis virus (IMNV). These diseases have caused significant losses in P. monodon populations, while P. vannamei has demonstrated a higher level of resistance."
+What are the growth characteristics of P. vannamei compared to P. monodon?,"P. vannamei has a faster growth rate compared to P. monodon. It reaches marketable size in a shorter period, typically within 100-120 days, while P. monodon takes around 150-180 days. The faster growth of P. vannamei allows for more efficient production and higher yields."
+Why is P. vannamei preferred in shrimp farming?,"P. vannamei is preferred in shrimp farming due to its disease resistance, fast growth rate, tolerance to varied water conditions, better feed efficiency, and higher market demand and price. These factors make it a more profitable and reliable choice for shrimp cultivation."
+"As a hatchery owner, I want to showcase my seed inventory on Market Connect to attract potential buyers such as nurseries and farmers. How can I list and manage my seed availability effectively?","Market Connect provides a user-friendly interface for hatcheries to easily list their seed inventory. They can upload seed descriptions, specifications, and images, ensuring that potential buyers get a comprehensive overview of the available seeds. Additionally, hatcheries can manage their inventory, update seed quantities, and mark seeds as 'sold' when they are no longer available."
+"As a nursery owner, I'm interested in using Market Connect to find reliable hatcheries and explore their seed offerings. How can I search for specific seeds and place orders through the platform?","Using Market Connect, nurseries can search for seeds based on specific criteria such as crop type, variety, or region. The platform offers advanced search filters and sorting options to help nurseries find the most relevant seeds. Once a nursery identifies the desired seeds, they can directly communicate with the hatchery through the platform's messaging system and initiate the ordering process."
+"As a farmer, I'm excited about the concept of Market Connect as it can help me discover new seed varieties and connect with nurseries. How can I ensure the quality and authenticity of the seeds available on the platform?","To address concerns regarding seed quality and authenticity, Market Connect implements a robust verification process for hatcheries and seed suppliers. Before being listed on the platform, hatcheries undergo a verification procedure to ensure that their seeds meet industry standards. Additionally, the platform incorporates a rating and review system where farmers can share their experiences and provide feedback on the seed quality, germination rates, and overall satisfaction."
+"As a shrimp farmer, I want to improve the efficiency of my vannamei culture practices. Provide insights on optimal water quality parameters, feeding strategies, and disease prevention measures.","Maintaining optimal water quality is crucial for successful vannamei culture. Parameters such as temperature, salinity, dissolved oxygen levels, and pH play a significant role. Ensuring proper filtration, aeration, and regular monitoring can create a conducive environment for shrimp growth. Additionally, implementing balanced feeding practices, disease surveillance, and biosecurity measures can contribute to improved productivity and profitability."
+"You are a hatchery manager responsible for vannamei shrimp breeding. Discuss the key considerations for broodstock selection, spawning techniques, larval rearing, and post-larval management.","In vannamei hatchery management, selecting healthy broodstock with desirable traits is vital. Broodstock should undergo proper conditioning and maturation processes to enhance reproductive performance. Techniques like induced spawning and larval rearing in specialized tanks or raceways, coupled with appropriate nutrition and water management, can maximize larval survival rates. Post-larval stages require careful acclimation and transfer to grow-out ponds, ensuring favorable environmental conditions and nutrition for their growth."
+"Market Connect aims to revolutionize the shrimp industry by connecting hatcheries, farmers, and buyers. How can this platform streamline the supply chain, enhance market access, and boost collaboration among stakeholders?","Market Connect serves as a game-changer for the shrimp industry. By providing a digital platform, it enables hatcheries to showcase their vannamei shrimp seed availability and connects them with farmers and buyers. This seamless interaction facilitates efficient seed distribution, offers real-time market insights, and fosters collaborations. With Market Connect, farmers gain access to a wide range of quality seeds, while hatcheries expand their market reach, ultimately driving growth and sustainability in the industry."
+"As a shrimp farmer, I'm concerned about sustainability in the industry. Explore the latest innovations in vannamei culture that promote eco-friendly practices, minimize environmental impact, and ensure long-term viability.","Sustainability is a key focus in vannamei culture. Innovations such as recirculating aquaculture systems (RAS), pond raceway systems (PRS), and integrated multitrophic aquaculture (IMTA) promote resource efficiency and minimize environmental impact. Adopting organic and locally sourced feeds, implementing water treatment technologies, and reducing the use of antibiotics contribute to sustainable shrimp farming. By embracing these practices, farmers can enhance the quality of their products, conserve natural resources, and meet the growing demand for responsibly produced shrimp."
+Vannamei Shrimp,"Also known as Pacific white shrimp (Litopenaeus vannamei), it is a species of shrimp widely cultivated for commercial purposes due to its rapid growth and high market demand."
+Hatchery,"A facility where shrimp larvae are bred, hatched, and reared under controlled conditions until they reach a certain stage (post-larvae) suitable for stocking in grow-out ponds or farms."
+"Market Connect is an innovative platform that facilitates connections between shrimp hatcheries, nurseries, and farmers. It aims to streamline the exchange of seed requirements and seed availability. Provide insights on how Market Connect can benefit hatcheries, nurseries, and farmers in the shrimp industry.","Market Connect offers hatcheries a wider market reach and increased visibility for their seed availability. It enables them to connect directly with nurseries and farmers, eliminating intermediaries and ensuring efficient seed distribution. Nurseries benefit from easy access to a diverse range of high-quality seeds, while farmers can find reliable suppliers and fulfill their seed requirements. By fostering collaboration and simplifying the process, Market Connect accelerates the growth and profitability of the shrimp industry."
+"As a hatchery manager, you are looking for effective strategies to improve the survival and growth rates of vannamei shrimp larvae. Discuss the key factors to consider, such as water quality management, feeding protocols, and disease prevention measures.","Optimal water quality is essential for successful vannamei shrimp larval rearing. Maintaining appropriate temperature, salinity, dissolved oxygen levels, and pH creates a favorable environment. Implementing a well-balanced feeding protocol with appropriate feed types and feeding frequencies ensures proper nutrition. Disease prevention measures, including regular water quality monitoring, implementing biosecurity protocols, and minimizing stressors, contribute to higher survival rates and healthier larvae."
+"You are a shrimp farmer concerned about sustainability in the vannamei culture industry. Discuss eco-friendly practices, such as responsible feed sourcing, effluent management, and habitat preservation, that can be implemented to minimize the environmental impact.","Sustainability in vannamei culture is a growing priority. Shrimp farmers can adopt responsible feed sourcing practices, such as using sustainable and traceable feed ingredients, reducing reliance on fishmeal, and promoting the use of alternative protein sources. Implementing effective effluent management systems, such as sedimentation ponds and wetlands, helps minimize the impact of water discharges. Additionally, preserving natural habitats, mangroves, and coastal ecosystems contributes to the overall ecological balance and sustainability of vannamei culture."
+Larviculture,"The process of rearing shrimp larvae in specialized tanks or systems, providing optimal environmental conditions and a carefully balanced diet to ensure their healthy growth and development"
+Grow-out Pond,A large water body or pond used for the commercial production of shrimp. It provides a controlled environment for the growth and maturation of shrimp from post-larvae stage to marketable size.
+Water Quality Management,"The practice of monitoring and maintaining appropriate levels of temperature, salinity, dissolved oxygen, pH, ammonia, and other parameters in shrimp farming systems to ensure optimal growth and health of the shrimp"
+Biosecurity,"Measures implemented to prevent the introduction and spread of diseases, pathogens, and pests in shrimp farms. It includes protocols such as quarantine, disinfection, strict hygiene practices, and monitoring of shrimp health."
+Seed Availability,Refers to the availability of quality shrimp seeds (post-larvae) from hatcheries for stocking in grow-out ponds or farms.
+Sustainable Shrimp Farming,"Practices that aim to minimize the environmental impact of shrimp farming while ensuring long-term economic viability. It involves responsible feed sourcing, effluent management, habitat preservation, and adherence to environmental regulations."
+Market Connect,"The platform or network that facilitates the connection and exchange of seed requirements and availability between hatcheries, nurseries, and farmers in the shrimp industry.Developed and owned by `ambrotechs` private limited."
+Nursery,A facility where post-larvae shrimp are further reared and grown to a larger size before being transferred to grow-out ponds. It provides an intermediate stage between hatcheries and grow-out ponds.
+Effluent Management,"Techniques and systems used to control and treat the water discharged from shrimp farms, minimizing its impact on the surrounding environment. This may involve sedimentation ponds, wetlands, and nutrient control measures."
+Disease Prevention,"Strategies and practices implemented to prevent and manage shrimp diseases, including regular health monitoring, vaccination, proper nutrition, and water quality management."
+Genetic Quality,"The genetic characteristics and traits of shrimp stocks, including disease resistance, growth rates, and adaptability to specific environmental conditions."
+Responsible Feed Sourcing,"The use of sustainable and environmentally friendly feed ingredients in shrimp diets, reducing reliance on fishmeal and promoting the use of alternative protein sources."
+Traceability,"The ability to track and document the origin, production, and distribution of shrimp seeds or products, ensuring transparency and accountability throughout the supply chain."
+more seed providers list,"1. Andhra Pradesh State Seeds Development Corporation Ltd
+2. Telangana State Seed Certification Agencies"
+"Please provide information about BluH, including any relevant details or specifications","BluH is a versatile product that offers a wide range of features. Whether you're looking for bluhatch,bluH, BLUH, or blUh, our product caters to various case types. BluH is known for its reliability, efficiency, and user-friendly interface. With BluH, you can streamline your processes and improve productivity. Feel free to explore bluh.com or contact our support team for more information."
+Vannamei seed providers,"syaqua,SyAqua,KonaBay,SIS,UniBIO"
+Tiger,"syaqua,SyAqua,KonaBay,SIS,UniBIO"
+Discount on seeds,register on ambrotechs market connect app to avail exclusive upto 50% discount
+Harvest Calculator,"Get projections of Biomass and ABW along with other growth trends and enable quicker and better corrective actions in case of observed deviations .Run simulations and plan best possible stocking densities ,DOC for optimum production outcomes ."
