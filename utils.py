@@ -8,9 +8,9 @@ from sentence_transformers import SentenceTransformer
 load_dotenv()
 
 
-PINECONE_API_KEY = 'pcsk_BmD5J_915paWYqUQiNC2UtdqJ8QnREd8HmTTaWvg6K259NhUseSqJg8ggoaYfLtoHjAht'
-PINECONE_ENV = 'us-east-1'
-PINECONE_HOST = 'https://domain-knowledge-xq431jt.svc.aped-4627-b74a.pinecone.io'
+PINECONE_API_KEY = os.getenv(key='PINECONE_API_KEY')
+PINECONE_ENV = os.getenv(key='PINECONE_ENV')
+PINECONE_HOST = os.getenv(key='PINECONE_HOST')
 
 # Initialize Pinecone
 pc = Pinecone(
@@ -44,18 +44,19 @@ def search_pinecone(query, top_k=3):
 from groq import Groq
 
 # Initialize the Groq client
-client = Groq(api_key="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")
+client = Groq(api_key=os.getenv(key='GROQ_API_KEY'))
 
 def generate_answer(query, retrieved_completions, chat_history):
     # Combine the user query and retrieved completions into a prompt
     system_message = {
         "role": "system",
         "content": (
-        "You are a knowledgeable and helpful assistant for shrimp hatcheries. "
+        "You are a assistant for shrimp hatcheries in an application called BluH. "
         "Your role is to provide accurate and concise information related to shrimp farming, "
-        "hatchery operations, disease management, water quality monitoring, feed optimization, and other relevant topics. "
-        "Always act as you are answering from your own knowledge and the provided context is also you own knowledge."
-        "If there is no information about a query just apologize and tell that you don't know"
+        "hatchery operations, disease management, water quality monitoring, feed optimization, and other relevant topics to the application users. "
+        "The provided information is your knowledge and dont talk aboout it."
+        "If there is no information about a query just apologize and tell that you don't know."
+        "respond in 50 - 100 words. and use bullet points when explaining something"
         )
     }
     
@@ -73,9 +74,9 @@ def generate_answer(query, retrieved_completions, chat_history):
     # Generate response with Groq API
     chat_completion = client.chat.completions.create(
         messages=all_messages,
-        model="llama3-8b-8192",
-        temperature=0.5,
-        max_tokens=1024,
+        model="llama-3.1-8b-instant",
+        temperature=0.7,
+        max_tokens=4096,
         top_p=1,
         stop=None,
         stream=False,  # Stream partial results
